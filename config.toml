@@ -1,7 +1,7 @@
-baseURL = "http://documentation-cabo.org/"
+baseURL = "https://bubobou.github.io/cabodoc/"
 languageCode = "en-us"
 title = "Documentation Carnet-de-Bord"
-theme="hugo-geekdoc-master"
+theme="geekdoc"
 # Geekdoc required conﬁguration
 pygmentsUseClasses = true
 pygmentsCodeFences = true

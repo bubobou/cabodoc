@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Globals on Documentation Carnet-de-Bord</title>
-    <link>http://documentation-cabo.org/global/</link>
+    <link>https://bubobou.github.io/cabodoc/global/</link>
     <description>Recent content in Globals on Documentation Carnet-de-Bord</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://documentation-cabo.org/global/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/global/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Global</title>
-      <link>http://documentation-cabo.org/Global/Global/</link>
+      <link>https://bubobou.github.io/cabodoc/Global/Global/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Global/Global/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Global/Global/</guid>
       <description>Extends: Node
 Description    Property Descriptions    data    var data MAX_NOM    var MAX_NOM MAX_CHAR_GRLL    var MAX_CHAR_GRLL taille maximale du nombre de caractères dans une ligne de la liste de grilles
 eleveEditPage    var eleveEditPage groupeEditPage    var groupeEditPage allReferentiel    var allReferentiel domainByRefId    var domainByRefId competenceByDomainId    var competenceByDomainId grilleEditPage    var grilleEditPage dictionnaire qui contient tous les attributs utiles à la scène créer/modifier une grille</description>
@@ -20,10 +20,10 @@ eleveEditPage    var eleveEditPage groupeEditPage    var groupeEditPage allRefer
     
     <item>
       <title>GlobalHelper</title>
-      <link>http://documentation-cabo.org/Global/GlobalHelper/</link>
+      <link>https://bubobou.github.io/cabodoc/Global/GlobalHelper/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Global/GlobalHelper/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Global/GlobalHelper/</guid>
       <description>Extends: Node
 Description    fonctions communes utilisés partout dans tout le code
 Property Descriptions    domaineModel    var domaineModel competenceModel    var competenceModel referentielModel    var referentielModel Method Descriptions    fillQuestionText    func fillQuestionText(qstText, questionNode) mergeDic    func mergeDic(dicOne, dicTwo) ajoute le dictionnaire 2 donné en paramètre au dictionnaire 1 donné en paramètre

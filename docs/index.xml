@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentation Carnet-de-Bord</title>
-    <link>http://documentation-cabo.org/</link>
+    <link>https://bubobou.github.io/cabodoc/</link>
     <description>Recent content on Documentation Carnet-de-Bord</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://documentation-cabo.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>baseModel</title>
-      <link>http://documentation-cabo.org/data-Models/baseModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/baseModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/baseModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/baseModel/</guid>
       <description>Extends: Data &amp;lt; Node
 Description    modèle de data access object category: Model
 Constants Descriptions    SQLite    const SQLite: NativeScript = preload(&amp;#34;res://addons/godot-sqlite/bin/gdsqlite.gdns&amp;#34;) Property Descriptions    db    var db dbName    var dbName: String jsonName    var jsonName: String Method Descriptions    cprint    func cprint(text: String) -&amp;gt; void copy_data_to_user    func copy_data_to_user() -&amp;gt; void copier les données vers le répertoire data</description>
@@ -20,10 +20,10 @@ Constants Descriptions    SQLite    const SQLite: NativeScript = preload(&amp;#3
     
     <item>
       <title>ComCFQuestionPC</title>
-      <link>http://documentation-cabo.org/classes/ComCFQuestionPC/</link>
+      <link>https://bubobou.github.io/cabodoc/classes/ComCFQuestionPC/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/classes/ComCFQuestionPC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/classes/ComCFQuestionPC/</guid>
       <description>Extends: PanelContainer
 Description    Classe de la scène Question
 Property Descriptions    refId    var refId domaineId    var domaineId competenceIdArray    var competenceIdArray questionText    var questionText Method Descriptions    init    func init(refId, domaineId, competenceIdArray, questionText: String = &amp;#34;&amp;#34;) initialise les paramètres utilisés dans la construction de la scène Question</description>
@@ -31,20 +31,20 @@ Property Descriptions    refId    var refId domaineId    var domaineId competenc
     
     <item>
       <title>comHLeftB</title>
-      <link>http://documentation-cabo.org/classes/comHLeftB/</link>
+      <link>https://bubobou.github.io/cabodoc/classes/comHLeftB/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/classes/comHLeftB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/classes/comHLeftB/</guid>
       <description>Extends: Button
 Description    Bouton permettant de retourner au menu principal</description>
     </item>
     
     <item>
       <title>CompetenceModel</title>
-      <link>http://documentation-cabo.org/data-Models/CompetenceModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/CompetenceModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/CompetenceModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/CompetenceModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table COMPETENCE
 Method Descriptions    getCompetenceArrayByDomainId    func getCompetenceArrayByDomainId(idDomain) récupère toutes les compétences du domaine donné en paramètre</description>
@@ -52,10 +52,10 @@ Method Descriptions    getCompetenceArrayByDomainId    func getCompetenceArrayBy
     
     <item>
       <title>Data</title>
-      <link>http://documentation-cabo.org/classes/Data/</link>
+      <link>https://bubobou.github.io/cabodoc/classes/Data/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/classes/Data/</guid>
+      <guid>https://bubobou.github.io/cabodoc/classes/Data/</guid>
       <description>Extends: Node
 Description    mapping des noms utilisés dans le code avec les noms des tables et des champs utilisés dans la base de données
 Property Descriptions    eleveTable    var eleveTable: String eleveId    var eleveId: String eleveNom    var eleveNom: String elevePrenom    var elevePrenom: String groupeTable    var groupeTable: String groupeId    var groupeId: String groupeNom    var groupeNom: String eleveGroupPivotTable    var eleveGroupPivotTable: String eleveGroupPivotEleveId    var eleveGroupPivotEleveId: String eleveGroupPivotGroupeId    var eleveGroupPivotGroupeId: String grilleTable    var grilleTable: String grilleId    var grilleId: String grilleName    var grilleName: String questionTable    var questionTable: String questionId    var questionId: String questionText    var questionText: String questionReferentielId    var questionReferentielId: String questionDomainId    var questionDomainId: String grilleQuestionPivotTable    var grilleQuestionPivotTable: String grilleQuestionPivotQuestionId    var grilleQuestionPivotQuestionId: String grilleQuestionPivotGrilleId    var grilleQuestionPivotGrilleId: String referentielTable    var referentielTable: String referentielId    var referentielId: String referentielCycle    var referentielCycle: String referentielNiveau    var referentielNiveau: String referentielDiscipline    var referentielDiscipline: String referentielType    var referentielType: String domaineTable    var domaineTable: String domaineId    var domaineId: String domaineNom    var domaineNom: String domainReferentielId    var domainReferentielId: String competenceTable    var competenceTable: String competenceId    var competenceId: String competenceCapacite    var competenceCapacite: String competenceContenu    var competenceContenu: String competenceType    var competenceType: String competenceDomaineId    var competenceDomaineId: String competenceEditText    var competenceEditText: String questionCompetencePivotTable    var questionCompetencePivotTable: String questionCompetencePivotQuestionId    var questionCompetencePivotQuestionId: String questionCompetencePivotCompetenceId    var questionCompetencePivotCompetenceId: String </description>
@@ -63,10 +63,10 @@ Property Descriptions    eleveTable    var eleveTable: String eleveId    var ele
     
     <item>
       <title>DomaineModel</title>
-      <link>http://documentation-cabo.org/data-Models/DomaineModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/DomaineModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/DomaineModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/DomaineModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table DOMAINE category : Model
 Method Descriptions    getDomaineByRefId    func getDomaineByRefId(refId) récupère tous les domaines du référentiel donné en paramètre</description>
@@ -74,10 +74,10 @@ Method Descriptions    getDomaineByRefId    func getDomaineByRefId(refId) récup
     
     <item>
       <title>eAjoPC</title>
-      <link>http://documentation-cabo.org/Eleves/eAjoPC/</link>
+      <link>https://bubobou.github.io/cabodoc/Eleves/eAjoPC/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Eleves/eAjoPC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Eleves/eAjoPC/</guid>
       <description>Extends: PanelContainer
 Description    La classe du panneau permettant d&amp;rsquo;ajouter un élève
 Property Descriptions    eleveModel    var eleveModel pivotEleveGroupeModel    var pivotEleveGroupeModel Method Descriptions    editPageTitle    func editPageTitle() fillEleveForm    func fillEleveForm(idEleve) fillNomEleve    func fillNomEleve(nomEleve) fillPrenomEleve    func fillPrenomEleve(prenomEleve) fillGroupesEleve    func fillGroupesEleve(groupesArray) fillGroups    func fillGroups(multiSelectParentNode, groupesArray) fillIdEleve    func fillIdEleve(idEleve) displayDeleteButton    func displayDeleteButton() </description>
@@ -85,10 +85,10 @@ Property Descriptions    eleveModel    var eleveModel pivotEleveGroupeModel    v
     
     <item>
       <title>eleCLVBC</title>
-      <link>http://documentation-cabo.org/Eleves/eleCLVBC/</link>
+      <link>https://bubobou.github.io/cabodoc/Eleves/eleCLVBC/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Eleves/eleCLVBC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Eleves/eleCLVBC/</guid>
       <description>Extends: VBoxContainer
 Description    gère l&amp;rsquo;affichage de la liste des élèves
 Property Descriptions    eleveModel    var eleveModel Method Descriptions    fillRawData    func fillRawData(eleveDic) fillId    func fillId(rawNode, id) fillName    func fillName(rawNode, name) fillGroupes    func fillGroupes(rawNode, groupes) </description>
@@ -96,10 +96,10 @@ Property Descriptions    eleveModel    var eleveModel Method Descriptions    fil
     
     <item>
       <title>eleveModel</title>
-      <link>http://documentation-cabo.org/data-Models/eleveModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/eleveModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/eleveModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/eleveModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table ELEVE
 Method Descriptions    getEleveWithGroups    func getEleveWithGroups() getEleveWithoutGroupe    func getEleveWithoutGroupe(idsHavingGroupe) sélectionner dans la table ELEVE, ceux qui ne sont pas affectés à un groupe; retourner un dictionnaire {idEleve : {Name , Groupes}}
@@ -108,10 +108,10 @@ getEleveThatHasGroupe    func getEleveThatHasGroupe() effectuer une requête sur
     
     <item>
       <title>gAjoPC</title>
-      <link>http://documentation-cabo.org/classes/gAjoPC/</link>
+      <link>https://bubobou.github.io/cabodoc/classes/gAjoPC/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/classes/gAjoPC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/classes/gAjoPC/</guid>
       <description>Extends: PanelContainer
 Description    class du container d&amp;rsquo;ajout de groupes
 Property Descriptions    groupeModel    var groupeModel Method Descriptions    editPageTitle    func editPageTitle() fillGroupeForm    func fillGroupeForm(idGroupe) fillNomGroupe    func fillNomGroupe(nomGroupe) fillIdGroupe    func fillIdGroupe(idGroupe) displayDeleteButton    func displayDeleteButton() </description>
@@ -119,10 +119,10 @@ Property Descriptions    groupeModel    var groupeModel Method Descriptions    e
     
     <item>
       <title>Global</title>
-      <link>http://documentation-cabo.org/Global/Global/</link>
+      <link>https://bubobou.github.io/cabodoc/Global/Global/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Global/Global/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Global/Global/</guid>
       <description>Extends: Node
 Description    Property Descriptions    data    var data MAX_NOM    var MAX_NOM MAX_CHAR_GRLL    var MAX_CHAR_GRLL taille maximale du nombre de caractères dans une ligne de la liste de grilles
 eleveEditPage    var eleveEditPage groupeEditPage    var groupeEditPage allReferentiel    var allReferentiel domainByRefId    var domainByRefId competenceByDomainId    var competenceByDomainId grilleEditPage    var grilleEditPage dictionnaire qui contient tous les attributs utiles à la scène créer/modifier une grille</description>
@@ -130,10 +130,10 @@ eleveEditPage    var eleveEditPage groupeEditPage    var groupeEditPage allRefer
     
     <item>
       <title>GlobalHelper</title>
-      <link>http://documentation-cabo.org/Global/GlobalHelper/</link>
+      <link>https://bubobou.github.io/cabodoc/Global/GlobalHelper/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Global/GlobalHelper/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Global/GlobalHelper/</guid>
       <description>Extends: Node
 Description    fonctions communes utilisés partout dans tout le code
 Property Descriptions    domaineModel    var domaineModel competenceModel    var competenceModel referentielModel    var referentielModel Method Descriptions    fillQuestionText    func fillQuestionText(qstText, questionNode) mergeDic    func mergeDic(dicOne, dicTwo) ajoute le dictionnaire 2 donné en paramètre au dictionnaire 1 donné en paramètre
@@ -142,30 +142,30 @@ prepareInString    func prepareInString(valuesArray) prépare une chaîne de cha
     
     <item>
       <title>GriCLRLTextB</title>
-      <link>http://documentation-cabo.org/Grilles/GriCLRLTextB/</link>
+      <link>https://bubobou.github.io/cabodoc/Grilles/GriCLRLTextB/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Grilles/GriCLRLTextB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Grilles/GriCLRLTextB/</guid>
       <description>Extends: Button
 Description    gère l&amp;rsquo;action clique sur le nom de la grille</description>
     </item>
     
     <item>
       <title>GriFMiddleB</title>
-      <link>http://documentation-cabo.org/Grilles/GriFMiddleB/</link>
+      <link>https://bubobou.github.io/cabodoc/Grilles/GriFMiddleB/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Grilles/GriFMiddleB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Grilles/GriFMiddleB/</guid>
       <description>Extends: Button
 Description    </description>
     </item>
     
     <item>
       <title>GrilleModel</title>
-      <link>http://documentation-cabo.org/data-Models/GrilleModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/GrilleModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/GrilleModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/GrilleModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table GRILLE category: Model
 Method Descriptions    getGrilleById    func getGrilleById(idGrille) récupère le nom de la grille par idGrille passé en argument
@@ -175,10 +175,10 @@ getGrilleWithoutQuestion    func getGrilleWithoutQuestion(grillIdWithQuestion) r
     
     <item>
       <title>GrlAjoCFMultiSelectOB</title>
-      <link>http://documentation-cabo.org/Grilles/GrlAjoCFMultiSelectOB/</link>
+      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFMultiSelectOB/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Grilles/GrlAjoCFMultiSelectOB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFMultiSelectOB/</guid>
       <description>Extends: OptionButton
 Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/modifier une grille
 Property Descriptions    domaineModel    var domaineModel </description>
@@ -186,10 +186,10 @@ Property Descriptions    domaineModel    var domaineModel </description>
     
     <item>
       <title>GrlAjoCFQAddB</title>
-      <link>http://documentation-cabo.org/Grilles/GrlAjoCFQAddB/</link>
+      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQAddB/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Grilles/GrlAjoCFQAddB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQAddB/</guid>
       <description>Extends: Button
 Description    gérer le bouton d&amp;rsquo;ajout de question
 Method Descriptions    duplicateQuestionScene    func duplicateQuestionScene(toDuplicateNode) duplique la scène parente du formulaire de question
@@ -198,20 +198,20 @@ getCompetenceArray    func getCompetenceArray(toDuplicateNode) récupère le ou 
     
     <item>
       <title>GrlAjoCFQSDomainOB</title>
-      <link>http://documentation-cabo.org/Grilles/GrlAjoCFQSDomainOB/</link>
+      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQSDomainOB/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Grilles/GrlAjoCFQSDomainOB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQSDomainOB/</guid>
       <description>Extends: OptionButton
 Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/mmodifier une grille</description>
     </item>
     
     <item>
       <title>GrlAjoCFSaveB</title>
-      <link>http://documentation-cabo.org/Grilles/GrlAjoCFSaveB/</link>
+      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFSaveB/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Grilles/GrlAjoCFSaveB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFSaveB/</guid>
       <description>Extends: Button
 Description    gère le bouton &amp;ldquo;Enregistrer grille&amp;rdquo;
 Property Descriptions    grilleModel    var grilleModel formNode    var formNode grilleForm    var grilleForm Method Descriptions    getGrilleDic    func getGrilleDic() collecte la structure de donnée grille à partir du formulaire de grille
@@ -220,10 +220,10 @@ getGrilleQuestions    func getGrilleQuestions() récupère un tableau des questi
     
     <item>
       <title>GrlAjoPC</title>
-      <link>http://documentation-cabo.org/Grilles/GrlAjoPC/</link>
+      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoPC/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Grilles/GrlAjoPC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoPC/</guid>
       <description>Extends: PanelContainer
 Description    gère la page d&amp;rsquo;ajout et de modification d&amp;rsquo;une grille
 Property Descriptions    grilleModel    var grilleModel pivotGrlQstModel    var pivotGrlQstModel Method Descriptions    fillGrilleForm    func fillGrilleForm(idGrille) remplit le formulaire de modiication d&amp;rsquo;une grille donnée en argument
@@ -233,10 +233,10 @@ fillQuestions    func fillQuestions(questionArray, qstFormNode) remplit les ques
     
     <item>
       <title>GrlCLVBC</title>
-      <link>http://documentation-cabo.org/Grilles/GrlCLVBC/</link>
+      <link>https://bubobou.github.io/cabodoc/Grilles/GrlCLVBC/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/Grilles/GrlCLVBC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlCLVBC/</guid>
       <description>Extends: VBoxContainer
 Description    gère la liste des grilles
 Property Descriptions    grilleModel    var grilleModel Method Descriptions    fillGrilleRaws    func fillGrilleRaws(grilleDic) remplit les lignes de la liste de grilles
@@ -246,10 +246,10 @@ fillGrilleDiscipline    func fillGrilleDiscipline(rawNode, disciplineText) rempl
     
     <item>
       <title>groCLVBC</title>
-      <link>http://documentation-cabo.org/classes/groCLVBC/</link>
+      <link>https://bubobou.github.io/cabodoc/classes/groCLVBC/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/classes/groCLVBC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/classes/groCLVBC/</guid>
       <description>Extends: VBoxContainer
 Description    gère l&amp;rsquo;affichage de la liste des groupes
 Property Descriptions    groupeModel    var groupeModel Method Descriptions    fillRawData    func fillRawData(groupesArray) fillGoupeName    func fillGoupeName(rawNode, name) fillId    func fillId(rawNode, id) </description>
@@ -257,10 +257,10 @@ Property Descriptions    groupeModel    var groupeModel Method Descriptions    f
     
     <item>
       <title>groupeModel</title>
-      <link>http://documentation-cabo.org/data-Models/groupeModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/groupeModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/groupeModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/groupeModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table GROUPE
 Method Descriptions    getGroupList    func getGroupList() recuperer tout les groupes
@@ -269,10 +269,10 @@ insertGroupe    func insertGroupe(groupeDic) createNewGroupe    func createNewGr
     
     <item>
       <title>PivotGrilleQuestionModel</title>
-      <link>http://documentation-cabo.org/data-Models/PivotGrilleQuestionModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/PivotGrilleQuestionModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/PivotGrilleQuestionModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/PivotGrilleQuestionModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access model de la table GRILLE_QUESTION_PIVOT
 Method Descriptions    getQuestionWithCompetenceByGrilleId    func getQuestionWithCompetenceByGrilleId(idGrille) récupère toutes les questions de la grille donné en paramètre
@@ -283,10 +283,10 @@ getGrilleReferentieLinked    func getGrilleReferentieLinked() récupère les don
     
     <item>
       <title>PivotQuestionCompetenceModel</title>
-      <link>http://documentation-cabo.org/data-Models/PivotQuestionCompetenceModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/PivotQuestionCompetenceModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/PivotQuestionCompetenceModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/PivotQuestionCompetenceModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table QUESTION_COMPETENCE_PIVOT
 Method Descriptions    linkQuestionToManyCompetence    func linkQuestionToManyCompetence(idQuestion, competenceArray) lie une question à plusieurs compétences
@@ -297,10 +297,10 @@ prepareRawByQuestion    func prepareRawByQuestion(idQuestion, competenceArray) p
     
     <item>
       <title>QuestionModel</title>
-      <link>http://documentation-cabo.org/data-Models/QuestionModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/QuestionModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/QuestionModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/QuestionModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table QUESTION
 Method Descriptions    saveManyQuestion    func saveManyQuestion(questionArray, idGrille) sauvergarde plusieurs questions et les lie à la grille passé en argument
@@ -310,10 +310,10 @@ updateQuestion    func updateQuestion(questionDic) updateQuestionRaw    func upd
     
     <item>
       <title>ReferentielModel</title>
-      <link>http://documentation-cabo.org/data-Models/ReferentielModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/ReferentielModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/ReferentielModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/ReferentielModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table REFERENTIEL
 Method Descriptions    getAllReferentiel    func getAllReferentiel() récupére tous les référentiels de la table REFERENTIEL

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Models on Documentation Carnet-de-Bord</title>
-    <link>http://documentation-cabo.org/data-models/</link>
+    <link>https://bubobou.github.io/cabodoc/data-models/</link>
     <description>Recent content in Data Models on Documentation Carnet-de-Bord</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://documentation-cabo.org/data-models/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/data-models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>baseModel</title>
-      <link>http://documentation-cabo.org/data-Models/baseModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/baseModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/baseModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/baseModel/</guid>
       <description>Extends: Data &amp;lt; Node
 Description    modèle de data access object category: Model
 Constants Descriptions    SQLite    const SQLite: NativeScript = preload(&amp;#34;res://addons/godot-sqlite/bin/gdsqlite.gdns&amp;#34;) Property Descriptions    db    var db dbName    var dbName: String jsonName    var jsonName: String Method Descriptions    cprint    func cprint(text: String) -&amp;gt; void copy_data_to_user    func copy_data_to_user() -&amp;gt; void copier les données vers le répertoire data</description>
@@ -20,10 +20,10 @@ Constants Descriptions    SQLite    const SQLite: NativeScript = preload(&amp;#3
     
     <item>
       <title>CompetenceModel</title>
-      <link>http://documentation-cabo.org/data-Models/CompetenceModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/CompetenceModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/CompetenceModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/CompetenceModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table COMPETENCE
 Method Descriptions    getCompetenceArrayByDomainId    func getCompetenceArrayByDomainId(idDomain) récupère toutes les compétences du domaine donné en paramètre</description>
@@ -31,10 +31,10 @@ Method Descriptions    getCompetenceArrayByDomainId    func getCompetenceArrayBy
     
     <item>
       <title>DomaineModel</title>
-      <link>http://documentation-cabo.org/data-Models/DomaineModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/DomaineModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/DomaineModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/DomaineModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table DOMAINE category : Model
 Method Descriptions    getDomaineByRefId    func getDomaineByRefId(refId) récupère tous les domaines du référentiel donné en paramètre</description>
@@ -42,10 +42,10 @@ Method Descriptions    getDomaineByRefId    func getDomaineByRefId(refId) récup
     
     <item>
       <title>eleveModel</title>
-      <link>http://documentation-cabo.org/data-Models/eleveModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/eleveModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/eleveModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/eleveModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table ELEVE
 Method Descriptions    getEleveWithGroups    func getEleveWithGroups() getEleveWithoutGroupe    func getEleveWithoutGroupe(idsHavingGroupe) sélectionner dans la table ELEVE, ceux qui ne sont pas affectés à un groupe; retourner un dictionnaire {idEleve : {Name , Groupes}}
@@ -54,10 +54,10 @@ getEleveThatHasGroupe    func getEleveThatHasGroupe() effectuer une requête sur
     
     <item>
       <title>GrilleModel</title>
-      <link>http://documentation-cabo.org/data-Models/GrilleModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/GrilleModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/GrilleModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/GrilleModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table GRILLE category: Model
 Method Descriptions    getGrilleById    func getGrilleById(idGrille) récupère le nom de la grille par idGrille passé en argument
@@ -67,10 +67,10 @@ getGrilleWithoutQuestion    func getGrilleWithoutQuestion(grillIdWithQuestion) r
     
     <item>
       <title>groupeModel</title>
-      <link>http://documentation-cabo.org/data-Models/groupeModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/groupeModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/groupeModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/groupeModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table GROUPE
 Method Descriptions    getGroupList    func getGroupList() recuperer tout les groupes
@@ -79,10 +79,10 @@ insertGroupe    func insertGroupe(groupeDic) createNewGroupe    func createNewGr
     
     <item>
       <title>PivotGrilleQuestionModel</title>
-      <link>http://documentation-cabo.org/data-Models/PivotGrilleQuestionModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/PivotGrilleQuestionModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/PivotGrilleQuestionModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/PivotGrilleQuestionModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access model de la table GRILLE_QUESTION_PIVOT
 Method Descriptions    getQuestionWithCompetenceByGrilleId    func getQuestionWithCompetenceByGrilleId(idGrille) récupère toutes les questions de la grille donné en paramètre
@@ -93,10 +93,10 @@ getGrilleReferentieLinked    func getGrilleReferentieLinked() récupère les don
     
     <item>
       <title>PivotQuestionCompetenceModel</title>
-      <link>http://documentation-cabo.org/data-Models/PivotQuestionCompetenceModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/PivotQuestionCompetenceModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/PivotQuestionCompetenceModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/PivotQuestionCompetenceModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table QUESTION_COMPETENCE_PIVOT
 Method Descriptions    linkQuestionToManyCompetence    func linkQuestionToManyCompetence(idQuestion, competenceArray) lie une question à plusieurs compétences
@@ -107,10 +107,10 @@ prepareRawByQuestion    func prepareRawByQuestion(idQuestion, competenceArray) p
     
     <item>
       <title>QuestionModel</title>
-      <link>http://documentation-cabo.org/data-Models/QuestionModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/QuestionModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/QuestionModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/QuestionModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table QUESTION
 Method Descriptions    saveManyQuestion    func saveManyQuestion(questionArray, idGrille) sauvergarde plusieurs questions et les lie à la grille passé en argument
@@ -120,10 +120,10 @@ updateQuestion    func updateQuestion(questionDic) updateQuestionRaw    func upd
     
     <item>
       <title>ReferentielModel</title>
-      <link>http://documentation-cabo.org/data-Models/ReferentielModel/</link>
+      <link>https://bubobou.github.io/cabodoc/data-Models/ReferentielModel/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://documentation-cabo.org/data-Models/ReferentielModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/data-Models/ReferentielModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table REFERENTIEL
 Method Descriptions    getAllReferentiel    func getAllReferentiel() récupére tous les référentiels de la table REFERENTIEL
