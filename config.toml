@@ -1,0 +1,17 @@
+baseURL = "http://documentation-cabo.org/"
+languageCode = "en-us"
+title = "Documentation Carnet-de-Bord"
+theme="hugo-geekdoc-master"
+# Geekdoc required conﬁguration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+enableGitInfo=false
+# Needed for mermaid shortcodes
+[markup]
+[markup.goldmark.renderer]
+# Needed for mermaid shortcode
+unsafe = true
+[markup.tableOfContents]
+startLevel = 1
+endLevel = 9
