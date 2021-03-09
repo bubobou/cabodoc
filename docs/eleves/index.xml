@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eleves on Documentation Carnet-de-Bord</title>
+    <link>http://documentation-cabo.org/eleves/</link>
+    <description>Recent content in Eleves on Documentation Carnet-de-Bord</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://documentation-cabo.org/eleves/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eAjoPC</title>
+      <link>http://documentation-cabo.org/Eleves/eAjoPC/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/Eleves/eAjoPC/</guid>
+      <description>Extends: PanelContainer
+Description    La classe du panneau permettant d&amp;rsquo;ajouter un élève
+Property Descriptions    eleveModel    var eleveModel pivotEleveGroupeModel    var pivotEleveGroupeModel Method Descriptions    editPageTitle    func editPageTitle() fillEleveForm    func fillEleveForm(idEleve) fillNomEleve    func fillNomEleve(nomEleve) fillPrenomEleve    func fillPrenomEleve(prenomEleve) fillGroupesEleve    func fillGroupesEleve(groupesArray) fillGroups    func fillGroups(multiSelectParentNode, groupesArray) fillIdEleve    func fillIdEleve(idEleve) displayDeleteButton    func displayDeleteButton() </description>
+    </item>
+    
+    <item>
+      <title>eleCLVBC</title>
+      <link>http://documentation-cabo.org/Eleves/eleCLVBC/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/Eleves/eleCLVBC/</guid>
+      <description>Extends: VBoxContainer
+Description    gère l&amp;rsquo;affichage de la liste des élèves
+Property Descriptions    eleveModel    var eleveModel Method Descriptions    fillRawData    func fillRawData(eleveDic) fillId    func fillId(rawNode, id) fillName    func fillName(rawNode, name) fillGroupes    func fillGroupes(rawNode, groupes) </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/baseModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/classes/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/classes/ComCFQuestionPC/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/classes/comHLeftB/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/CompetenceModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/classes/Data/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-models/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/DomaineModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Eleves/eAjoPC/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Eleves/eleCLVBC/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/eleveModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/eleves/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/classes/gAjoPC/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Global/Global/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Global/GlobalHelper/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/global/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Grilles/GriCLRLTextB/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Grilles/GriFMiddleB/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/GrilleModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/grilles/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Grilles/GrlAjoCFMultiSelectOB/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Grilles/GrlAjoCFQAddB/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Grilles/GrlAjoCFQSDomainOB/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Grilles/GrlAjoCFSaveB/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Grilles/GrlAjoPC/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/Grilles/GrlCLVBC/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/classes/groCLVBC/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/groupeModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/PivotGrilleQuestionModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/PivotQuestionCompetenceModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/QuestionModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/data-Models/ReferentielModel/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://documentation-cabo.org/tags/</loc>
+  </url>
+  
+</urlset>

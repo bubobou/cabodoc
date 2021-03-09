@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classes on Documentation Carnet-de-Bord</title>
+    <link>http://documentation-cabo.org/classes/</link>
+    <description>Recent content in Classes on Documentation Carnet-de-Bord</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://documentation-cabo.org/classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ComCFQuestionPC</title>
+      <link>http://documentation-cabo.org/classes/ComCFQuestionPC/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/classes/ComCFQuestionPC/</guid>
+      <description>Extends: PanelContainer
+Description    Classe de la scène Question
+Property Descriptions    refId    var refId domaineId    var domaineId competenceIdArray    var competenceIdArray questionText    var questionText Method Descriptions    init    func init(refId, domaineId, competenceIdArray, questionText: String = &amp;#34;&amp;#34;) initialise les paramètres utilisés dans la construction de la scène Question</description>
+    </item>
+    
+    <item>
+      <title>comHLeftB</title>
+      <link>http://documentation-cabo.org/classes/comHLeftB/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/classes/comHLeftB/</guid>
+      <description>Extends: Button
+Description    Bouton permettant de retourner au menu principal</description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>http://documentation-cabo.org/classes/Data/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/classes/Data/</guid>
+      <description>Extends: Node
+Description    mapping des noms utilisés dans le code avec les noms des tables et des champs utilisés dans la base de données
+Property Descriptions    eleveTable    var eleveTable: String eleveId    var eleveId: String eleveNom    var eleveNom: String elevePrenom    var elevePrenom: String groupeTable    var groupeTable: String groupeId    var groupeId: String groupeNom    var groupeNom: String eleveGroupPivotTable    var eleveGroupPivotTable: String eleveGroupPivotEleveId    var eleveGroupPivotEleveId: String eleveGroupPivotGroupeId    var eleveGroupPivotGroupeId: String grilleTable    var grilleTable: String grilleId    var grilleId: String grilleName    var grilleName: String questionTable    var questionTable: String questionId    var questionId: String questionText    var questionText: String questionReferentielId    var questionReferentielId: String questionDomainId    var questionDomainId: String grilleQuestionPivotTable    var grilleQuestionPivotTable: String grilleQuestionPivotQuestionId    var grilleQuestionPivotQuestionId: String grilleQuestionPivotGrilleId    var grilleQuestionPivotGrilleId: String referentielTable    var referentielTable: String referentielId    var referentielId: String referentielCycle    var referentielCycle: String referentielNiveau    var referentielNiveau: String referentielDiscipline    var referentielDiscipline: String referentielType    var referentielType: String domaineTable    var domaineTable: String domaineId    var domaineId: String domaineNom    var domaineNom: String domainReferentielId    var domainReferentielId: String competenceTable    var competenceTable: String competenceId    var competenceId: String competenceCapacite    var competenceCapacite: String competenceContenu    var competenceContenu: String competenceType    var competenceType: String competenceDomaineId    var competenceDomaineId: String competenceEditText    var competenceEditText: String questionCompetencePivotTable    var questionCompetencePivotTable: String questionCompetencePivotQuestionId    var questionCompetencePivotQuestionId: String questionCompetencePivotCompetenceId    var questionCompetencePivotCompetenceId: String </description>
+    </item>
+    
+    <item>
+      <title>gAjoPC</title>
+      <link>http://documentation-cabo.org/classes/gAjoPC/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/classes/gAjoPC/</guid>
+      <description>Extends: PanelContainer
+Description    class du container d&amp;rsquo;ajout de groupes
+Property Descriptions    groupeModel    var groupeModel Method Descriptions    editPageTitle    func editPageTitle() fillGroupeForm    func fillGroupeForm(idGroupe) fillNomGroupe    func fillNomGroupe(nomGroupe) fillIdGroupe    func fillIdGroupe(idGroupe) displayDeleteButton    func displayDeleteButton() </description>
+    </item>
+    
+    <item>
+      <title>groCLVBC</title>
+      <link>http://documentation-cabo.org/classes/groCLVBC/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/classes/groCLVBC/</guid>
+      <description>Extends: VBoxContainer
+Description    gère l&amp;rsquo;affichage de la liste des groupes
+Property Descriptions    groupeModel    var groupeModel Method Descriptions    fillRawData    func fillRawData(groupesArray) fillGoupeName    func fillGoupeName(rawNode, name) fillId    func fillId(rawNode, id) </description>
+    </item>
+    
+  </channel>
+</rss>

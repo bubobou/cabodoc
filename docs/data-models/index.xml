@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Models on Documentation Carnet-de-Bord</title>
+    <link>http://documentation-cabo.org/data-models/</link>
+    <description>Recent content in Data Models on Documentation Carnet-de-Bord</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://documentation-cabo.org/data-models/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>baseModel</title>
+      <link>http://documentation-cabo.org/data-Models/baseModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/baseModel/</guid>
+      <description>Extends: Data &amp;lt; Node
+Description    modèle de data access object category: Model
+Constants Descriptions    SQLite    const SQLite: NativeScript = preload(&amp;#34;res://addons/godot-sqlite/bin/gdsqlite.gdns&amp;#34;) Property Descriptions    db    var db dbName    var dbName: String jsonName    var jsonName: String Method Descriptions    cprint    func cprint(text: String) -&amp;gt; void copy_data_to_user    func copy_data_to_user() -&amp;gt; void copier les données vers le répertoire data</description>
+    </item>
+    
+    <item>
+      <title>CompetenceModel</title>
+      <link>http://documentation-cabo.org/data-Models/CompetenceModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/CompetenceModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table COMPETENCE
+Method Descriptions    getCompetenceArrayByDomainId    func getCompetenceArrayByDomainId(idDomain) récupère toutes les compétences du domaine donné en paramètre</description>
+    </item>
+    
+    <item>
+      <title>DomaineModel</title>
+      <link>http://documentation-cabo.org/data-Models/DomaineModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/DomaineModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table DOMAINE category : Model
+Method Descriptions    getDomaineByRefId    func getDomaineByRefId(refId) récupère tous les domaines du référentiel donné en paramètre</description>
+    </item>
+    
+    <item>
+      <title>eleveModel</title>
+      <link>http://documentation-cabo.org/data-Models/eleveModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/eleveModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table ELEVE
+Method Descriptions    getEleveWithGroups    func getEleveWithGroups() getEleveWithoutGroupe    func getEleveWithoutGroupe(idsHavingGroupe) sélectionner dans la table ELEVE, ceux qui ne sont pas affectés à un groupe; retourner un dictionnaire {idEleve : {Name , Groupes}}
+getEleveThatHasGroupe    func getEleveThatHasGroupe() effectuer une requête sur la table ELEVE_GROUPE_PIVOT pour récupérer les élèves affectés à un groupe et retourner un dictionnaire contenant les groupes affectés à chaque élève via transformEleveGroups(queryResult)`.</description>
+    </item>
+    
+    <item>
+      <title>GrilleModel</title>
+      <link>http://documentation-cabo.org/data-Models/GrilleModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/GrilleModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table GRILLE category: Model
+Method Descriptions    getGrilleById    func getGrilleById(idGrille) récupère le nom de la grille par idGrille passé en argument
+getGrilleList    func getGrilleList() récupère la liste des grilles avec leur référentiel associé
+getGrilleWithoutQuestion    func getGrilleWithoutQuestion(grillIdWithQuestion) récupère les grilles qui n&amp;rsquo;ont pas de questions</description>
+    </item>
+    
+    <item>
+      <title>groupeModel</title>
+      <link>http://documentation-cabo.org/data-Models/groupeModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/groupeModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table GROUPE
+Method Descriptions    getGroupList    func getGroupList() recuperer tout les groupes
+insertGroupe    func insertGroupe(groupeDic) createNewGroupe    func createNewGroupe(groupeDic) updateGroupe    func updateGroupe(groupeDic) getGroupeById    func getGroupeById(idGroupe) deleteGroupe    func deleteGroupe(idGroupe) </description>
+    </item>
+    
+    <item>
+      <title>PivotGrilleQuestionModel</title>
+      <link>http://documentation-cabo.org/data-Models/PivotGrilleQuestionModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/PivotGrilleQuestionModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access model de la table GRILLE_QUESTION_PIVOT
+Method Descriptions    getQuestionWithCompetenceByGrilleId    func getQuestionWithCompetenceByGrilleId(idGrille) récupère toutes les questions de la grille donné en paramètre
+transformQuestionCompetence    func transformQuestionCompetence(qstWithCmpArray) contruit la struction de donnée la rubrique question
+initializeQstDic    func initializeQstDic(qstDic, qstId) intialise la structure de donnée &amp;ldquo;question&amp;rdquo;
+getGrilleReferentieLinked    func getGrilleReferentieLinked() récupère les données qui lient la grille aux réferentiels, en passant par les questions</description>
+    </item>
+    
+    <item>
+      <title>PivotQuestionCompetenceModel</title>
+      <link>http://documentation-cabo.org/data-Models/PivotQuestionCompetenceModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/PivotQuestionCompetenceModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table QUESTION_COMPETENCE_PIVOT
+Method Descriptions    linkQuestionToManyCompetence    func linkQuestionToManyCompetence(idQuestion, competenceArray) lie une question à plusieurs compétences
+insertManyRaws    func insertManyRaws(rawsArray) insère plusieurs lignes dans la table QUESTION_COMPETENCE_PIVOT
+flashLinkByQuestionId    func flashLinkByQuestionId(idQuestion) supprime tous les liens de compétences de QuestionId donné en argument
+prepareRawByQuestion    func prepareRawByQuestion(idQuestion, competenceArray) prépare plusieurs lignes à insérer dans la table QUESTION_COMPETENCE_PIVOT</description>
+    </item>
+    
+    <item>
+      <title>QuestionModel</title>
+      <link>http://documentation-cabo.org/data-Models/QuestionModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/QuestionModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table QUESTION
+Method Descriptions    saveManyQuestion    func saveManyQuestion(questionArray, idGrille) sauvergarde plusieurs questions et les lie à la grille passé en argument
+saveQuestion    func saveQuestion(questionDic) crée et met à jour une question
+updateQuestion    func updateQuestion(questionDic) updateQuestionRaw    func updateQuestionRaw(questionDic) createQuestion    func createQuestion(questionDic) crée et lie une question aux compétences associées</description>
+    </item>
+    
+    <item>
+      <title>ReferentielModel</title>
+      <link>http://documentation-cabo.org/data-Models/ReferentielModel/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://documentation-cabo.org/data-Models/ReferentielModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table REFERENTIEL
+Method Descriptions    getAllReferentiel    func getAllReferentiel() récupére tous les référentiels de la table REFERENTIEL
+prepareName    func prepareName(refArray) crée le nom du référentiel, ce nom est composé de Discipline et Niveau</description>
+    </item>
+    
+  </channel>
+</rss>
