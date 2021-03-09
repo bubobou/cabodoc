@@ -9,7 +9,7 @@ disablePathToLower = true
 enableGitInfo=false
 
 # publish repository for  github
-publishDir = “docs”
+publishDir = "docs"
 
 
 # Needed for mermaid shortcodes
