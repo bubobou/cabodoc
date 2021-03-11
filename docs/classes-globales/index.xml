@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classes Globales on Documentation Carnet-de-Bord</title>
+    <link>https://bubobou.github.io/cabodoc/classes-globales/</link>
+    <description>Recent content in Classes Globales on Documentation Carnet-de-Bord</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/classes-globales/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global</title>
+      <link>https://bubobou.github.io/cabodoc/classes-Globales/Global/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/classes-Globales/Global/</guid>
+      <description>Extends: Node
+Description    variables globales utilisées partout dans le code
+Property Descriptions    data    var data MAX_NOM    var MAX_NOM MAX_CHAR_GRLL    var MAX_CHAR_GRLL taille maximale du nombre de charactères dans une ligne de la liste de grilles
+eleveEditPage    var eleveEditPage groupeEditPage    var groupeEditPage allReferentiel    var allReferentiel domainByRefId    var domainByRefId competenceByDomainId    var competenceByDomainId grilleEditPage    var grilleEditPage dictionnaire qui contient tous les attributs utiles à la scène créer/modifier une grille</description>
+    </item>
+    
+    <item>
+      <title>GlobalHelper</title>
+      <link>https://bubobou.github.io/cabodoc/classes-Globales/GlobalHelper/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/classes-Globales/GlobalHelper/</guid>
+      <description>Extends: Node
+Description    fonctions communes utilisés partout dans tout le code
+Property Descriptions    domaineModel    var domaineModel competenceModel    var competenceModel referentielModel    var referentielModel Method Descriptions    fillQuestionText    func fillQuestionText(qstText, questionNode) mergeDic    func mergeDic(dicOne, dicTwo) ajoute le dictionnaire 2 donné en paramètre au dictionnaire 1 donné en paramètre
+prepareInString    func prepareInString(valuesArray) prépare une chaîne de charactère SQL du IN qui contient une liste de valeurs donnés en paramètre</description>
+    </item>
+    
+    <item>
+      <title>comHLeftB</title>
+      <link>https://bubobou.github.io/cabodoc/classes-Globales/comHLeftB/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/classes-Globales/comHLeftB/</guid>
+      <description>Extends: Button
+Description    Bouton permettant de retourner au menu principal</description>
+    </item>
+    
+  </channel>
+</rss>

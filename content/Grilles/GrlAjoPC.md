@@ -1,8 +1,8 @@
 +++
 title = "GrlAjoPC"
 description = "gère la page d'ajout et de modification d'une grille"
-author = "bb"
-date = "2021-03-07"
+author = "bek"
+date = "2021-03-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -35,7 +35,7 @@ var pivotGrlQstModel
 func fillGrilleForm(idGrille)
 ```
 
-remplit le formulaire de modiication d'une grille donnée en argument
+remplit le formulaire de modification d'une grille donnée en argument
 
 ### removeLoadedQuestionNode
 

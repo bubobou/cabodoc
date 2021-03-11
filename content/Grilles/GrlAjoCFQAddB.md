@@ -1,8 +1,8 @@
 +++
 title = "GrlAjoCFQAddB"
-description = "gérer le bouton d'ajout de question"
-author = "bb"
-date = "2021-03-07"
+description = "gère le bouton d'ajout de question"
+author = "bek"
+date = "2021-03-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -11,7 +11,7 @@ date = "2021-03-07"
 
 ## Description
 
-gérer le bouton d'ajout de question
+gère le bouton d'ajout de question
 
 ## Method Descriptions
 
@@ -29,4 +29,4 @@ duplique la scène parente du formulaire de question
 func getCompetenceArray(toDuplicateNode)
 ```
 
-récupère le ou les id des compétences sélectionnés de la question à dupliquer
+récupérer le ou les id des compétences sélectionnées de la question à dupliquer

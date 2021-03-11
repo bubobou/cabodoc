@@ -1,8 +1,8 @@
 +++
 title = "GrlAjoCFSaveB"
 description = "gère le bouton \"Enregistrer grille\""
-author = "bb"
-date = "2021-03-07"
+author = "bek"
+date = "2021-03-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -21,11 +21,15 @@ gère le bouton "Enregistrer grille"
 var grilleModel
 ```
 
+instance du data object acces grilleModel
+
 ### formNode
 
 ```gdscript
 var formNode
 ```
+
+noeud du formulaire grlAjoCForm-VBC
 
 ### grilleForm
 

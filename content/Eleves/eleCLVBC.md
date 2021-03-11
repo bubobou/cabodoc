@@ -1,8 +1,8 @@
 +++
 title = "eleCLVBC"
-description = "gère l'affichage de la liste des élèves"
-author = "bb"
-date = "2021-03-07"
+description = "gère la liste des élèves"
+author = "bek"
+date = "2021-03-11"
 +++
 
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
@@ -11,7 +11,7 @@ date = "2021-03-07"
 
 ## Description
 
-gère l'affichage de la liste des élèves
+gère la liste des élèves
 
 ## Property Descriptions
 

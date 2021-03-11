@@ -3,167 +3,187 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/baseModel/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/Data-Models/baseModel/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/classes/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/classes-globales/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/classes/ComCFQuestionPC/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/Questions/ComCFQuestionPC/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/classes/comHLeftB/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/Data-Models/CompetenceModel/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/CompetenceModel/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bubobou.github.io/cabodoc/classes/Data/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/Data-Models/Data/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/data-models/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/DomaineModel/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/Data-Models/DomaineModel/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/Eleves/eAjoPC/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/Eleves/eAjoCFSaveB/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/Eleves/eleCLRLTextB/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/Eleves/eleCLVBC/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/eleveModel/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/eleves/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/classes/gAjoPC/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/Groupes/gAjoCFSaveB/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/Global/Global/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/classes-Globales/Global/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/Global/GlobalHelper/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bubobou.github.io/cabodoc/global/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/classes-Globales/GlobalHelper/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/Grilles/GriCLRLTextB/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/Grilles/GriFMiddleB/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/GrilleModel/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://bubobou.github.io/cabodoc/Data-Models/GrilleModel/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/grilles/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFMultiSelectOB/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQAddB/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/Grilles/grlAjoCFQRemoveB/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQSDomainOB/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFSaveB/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/Grilles/GrlAjoPC/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bubobou.github.io/cabodoc/Grilles/GrlCLVBC/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/Groupes/groCLRLTextB/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/Groupes/groCLsVBC/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/groupes/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/Data-Models/PivotGrilleQuestionModel/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/Data-Models/PivotQuestionCompetenceModel/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/Data-Models/QuestionModel/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/questions/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/Data-Models/ReferentielModel/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bubobou.github.io/cabodoc/classes-Globales/comHLeftB/</loc>
     <lastmod>2021-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/classes/groCLVBC/</loc>
+    <loc>https://bubobou.github.io/cabodoc/Groupes/gAjoPC/</loc>
     <lastmod>2021-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/groupeModel/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/PivotGrilleQuestionModel/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/PivotQuestionCompetenceModel/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/QuestionModel/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bubobou.github.io/cabodoc/data-Models/ReferentielModel/</loc>
+    <loc>https://bubobou.github.io/cabodoc/Groupes/groCLVBC/</loc>
     <lastmod>2021-03-07T00:00:00+00:00</lastmod>
   </url>
   

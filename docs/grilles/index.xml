@@ -6,11 +6,11 @@
     <description>Recent content in Grilles on Documentation Carnet-de-Bord</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/grilles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/grilles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GriCLRLTextB</title>
       <link>https://bubobou.github.io/cabodoc/Grilles/GriCLRLTextB/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bubobou.github.io/cabodoc/Grilles/GriCLRLTextB/</guid>
       <description>Extends: Button
@@ -20,7 +20,7 @@ Description    gère l&amp;rsquo;action clique sur le nom de la grille</descript
     <item>
       <title>GriFMiddleB</title>
       <link>https://bubobou.github.io/cabodoc/Grilles/GriFMiddleB/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bubobou.github.io/cabodoc/Grilles/GriFMiddleB/</guid>
       <description>Extends: Button
@@ -30,57 +30,69 @@ Description    </description>
     <item>
       <title>GrlAjoCFMultiSelectOB</title>
       <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFMultiSelectOB/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFMultiSelectOB/</guid>
       <description>Extends: OptionButton
-Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/modifier une grille
+Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/mmodifier une grille
 Property Descriptions    domaineModel    var domaineModel </description>
     </item>
     
     <item>
       <title>GrlAjoCFQAddB</title>
       <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQAddB/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQAddB/</guid>
       <description>Extends: Button
-Description    gérer le bouton d&amp;rsquo;ajout de question
+Description    gère le bouton d&amp;rsquo;ajout de question
 Method Descriptions    duplicateQuestionScene    func duplicateQuestionScene(toDuplicateNode) duplique la scène parente du formulaire de question
-getCompetenceArray    func getCompetenceArray(toDuplicateNode) récupère le ou les id des compétences sélectionnés de la question à dupliquer</description>
+getCompetenceArray    func getCompetenceArray(toDuplicateNode) récupérer le ou les id des compétences sélectionnées de la question à dupliquer</description>
+    </item>
+    
+    <item>
+      <title>grlAjoCFQRemoveB</title>
+      <link>https://bubobou.github.io/cabodoc/Grilles/grlAjoCFQRemoveB/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Grilles/grlAjoCFQRemoveB/</guid>
+      <description>Extends: Button
+Description    supprime une question à l&amp;rsquo;appui sur son bouton - (moins)</description>
     </item>
     
     <item>
       <title>GrlAjoCFQSDomainOB</title>
       <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQSDomainOB/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQSDomainOB/</guid>
       <description>Extends: OptionButton
-Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/mmodifier une grille</description>
+Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/modifier une grille</description>
     </item>
     
     <item>
       <title>GrlAjoCFSaveB</title>
       <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFSaveB/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFSaveB/</guid>
       <description>Extends: Button
 Description    gère le bouton &amp;ldquo;Enregistrer grille&amp;rdquo;
-Property Descriptions    grilleModel    var grilleModel formNode    var formNode grilleForm    var grilleForm Method Descriptions    getGrilleDic    func getGrilleDic() collecte la structure de donnée grille à partir du formulaire de grille
+Property Descriptions    grilleModel    var grilleModel instance du data object acces grilleModel
+formNode    var formNode noeud du formulaire grlAjoCForm-VBC
+grilleForm    var grilleForm Method Descriptions    getGrilleDic    func getGrilleDic() collecte la structure de donnée grille à partir du formulaire de grille
 getGrilleQuestions    func getGrilleQuestions() récupère un tableau des questions à partir du formulaire grille</description>
     </item>
     
     <item>
       <title>GrlAjoPC</title>
       <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoPC/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoPC/</guid>
       <description>Extends: PanelContainer
 Description    gère la page d&amp;rsquo;ajout et de modification d&amp;rsquo;une grille
-Property Descriptions    grilleModel    var grilleModel pivotGrlQstModel    var pivotGrlQstModel Method Descriptions    fillGrilleForm    func fillGrilleForm(idGrille) remplit le formulaire de modiication d&amp;rsquo;une grille donnée en argument
+Property Descriptions    grilleModel    var grilleModel pivotGrlQstModel    var pivotGrlQstModel Method Descriptions    fillGrilleForm    func fillGrilleForm(idGrille) remplit le formulaire de modification d&amp;rsquo;une grille donnée en argument
 removeLoadedQuestionNode    func removeLoadedQuestionNode(qstFormNode) supprime le formulaire d&amp;rsquo;ajout de question
 fillQuestions    func fillQuestions(questionArray, qstFormNode) remplit les questions dans le formulaire récupérée de la base de donnée</description>
     </item>
@@ -88,7 +100,7 @@ fillQuestions    func fillQuestions(questionArray, qstFormNode) remplit les ques
     <item>
       <title>GrlCLVBC</title>
       <link>https://bubobou.github.io/cabodoc/Grilles/GrlCLVBC/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bubobou.github.io/cabodoc/Grilles/GrlCLVBC/</guid>
       <description>Extends: VBoxContainer
