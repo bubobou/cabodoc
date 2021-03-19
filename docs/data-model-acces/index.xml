@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Model Acces on Documentation Carnet-de-Bord</title>
+    <link>https://bubobou.github.io/cabodoc/data-model-acces/</link>
+    <description>Recent content in Data Model Acces on Documentation Carnet-de-Bord</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/data-model-acces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>baseModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/</guid>
+      <description>Extends: Data &amp;lt; Node
+Description    modèle de data access object
+Constants Descriptions    SQLite    const SQLite: NativeScript = preload(&amp;#34;res://addons/godot-sqlite/bin/gdsqlite.gdns&amp;#34;) Property Descriptions    db    var db dbName    var dbName: String jsonName    var jsonName: String Method Descriptions    cprint    func cprint(text: String) -&amp;gt; void copy_data_to_user    func copy_data_to_user() -&amp;gt; void connectDb    func connectDb() getLastInsertedId    func getLastInsertedId(tableName) obtenir le dernier Id inseré dans une table de la base de données, donnée en paramètre</description>
+    </item>
+    
+    <item>
+      <title>CompetenceModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/CompetenceModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/CompetenceModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table COMPETENCE
+Method Descriptions    getCompetenceArrayByDomainId    func getCompetenceArrayByDomainId(idDomain) récupère toutes les compétences du domaine donné en paramètre</description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/Data/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/Data/</guid>
+      <description>Extends: Node
+Description    mapping des noms utilisés dans le code avec les noms des tables et des champs utilisés dans la base de données
+Property Descriptions    eleveTable    var eleveTable: String eleveId    var eleveId: String eleveNom    var eleveNom: String elevePrenom    var elevePrenom: String groupeTable    var groupeTable: String groupeId    var groupeId: String groupeNom    var groupeNom: String eleveGroupPivotTable    var eleveGroupPivotTable: String eleveGroupPivotEleveId    var eleveGroupPivotEleveId: String eleveGroupPivotGroupeId    var eleveGroupPivotGroupeId: String grilleTable    var grilleTable: String grilleId    var grilleId: String grilleName    var grilleName: String questionTable    var questionTable: String questionId    var questionId: String questionText    var questionText: String questionReferentielId    var questionReferentielId: String questionDomainId    var questionDomainId: String grilleQuestionPivotTable    var grilleQuestionPivotTable: String grilleQuestionPivotQuestionId    var grilleQuestionPivotQuestionId: String grilleQuestionPivotGrilleId    var grilleQuestionPivotGrilleId: String referentielTable    var referentielTable: String referentielId    var referentielId: String referentielCycle    var referentielCycle: String referentielNiveau    var referentielNiveau: String referentielDiscipline    var referentielDiscipline: String referentielType    var referentielType: String domaineTable    var domaineTable: String domaineId    var domaineId: String domaineNom    var domaineNom: String domainReferentielId    var domainReferentielId: String competenceTable    var competenceTable: String competenceId    var competenceId: String competenceCapacite    var competenceCapacite: String competenceConnaissance    var competenceConnaissance: String competenceType    var competenceType: String competenceDomaineId    var competenceDomaineId: String competenceEditText    var competenceEditText: String questionCompetencePivotTable    var questionCompetencePivotTable: String questionCompetencePivotQuestionId    var questionCompetencePivotQuestionId: String questionCompetencePivotCompetenceId    var questionCompetencePivotCompetenceId: String evaluationTable    var evaluationTable: String evaluationId    var evaluationId: String evaluationGrilleId    var evaluationGrilleId: String evaluationGroupeId    var evaluationGroupeId: String evaluationDate    var evaluationDate: String positionTable    var positionTable: String positionEleveId    var positionEleveId: String positionEvaluationId    var positionEvaluationId: String positionQuestionId    var positionQuestionId: String positionCompetenceId    var positionCompetenceId: String positionValue    var positionValue: String </description>
+    </item>
+    
+    <item>
+      <title>DomaineModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/DomaineModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/DomaineModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table DOMAINE
+Method Descriptions    getDomaineByRefId    func getDomaineByRefId(refId) récupère tous les domaines du référentiel donné en paramètre</description>
+    </item>
+    
+    <item>
+      <title>EvaluationModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/EvaluationModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/EvaluationModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table EVALUATION
+Method Descriptions    getEvaluationById    func getEvaluationById(idEvaluation) getGrilleEvalById    func getGrilleEvalById(idGrille) getGroupeEvalById    func getGroupeEvalById(idGroupe) getEvaluationList    func getEvaluationList() récupère la liste des évaluations
+createEvaluation    func createEvaluation(evaluationDic) crée une nouvelle évaluation par insertion dans la table
+createNewPositionnement    func createNewPositionnement(idEvaluation) crée les entrées dans la table POSITION d&amp;rsquo;après les données de l&amp;rsquo;évaluation</description>
+    </item>
+    
+    <item>
+      <title>GrilleModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/GrilleModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/GrilleModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table GRILLE
+Method Descriptions    deleteGrille    func deleteGrille(idGrille) deleteGrilleQuestions    func deleteGrilleQuestions(idGrille) deleteGrilleRaw    func deleteGrilleRaw(idGrille) getGrilleById    func getGrilleById(idGrille) récupère le nom de la grille par idGrille passé en argument
+getGrilleList    func getGrilleList() récupère la liste des grilles avec leur référentiel associé</description>
+    </item>
+    
+    <item>
+      <title>PivotGrilleQuestionModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access model de la table GRILLE_QUESTION_PIVOT
+Method Descriptions    getQuestionWithCompetenceByGrilleId    func getQuestionWithCompetenceByGrilleId(idGrille) récupère toutes les questions de la grille donné en paramètre
+transformQuestionCompetence    func transformQuestionCompetence(qstWithCmpArray) construit la structure de donnée la rubrique question
+initializeQstDic    func initializeQstDic(qstDic, qstId) initialise la structure de donnée &amp;ldquo;question&amp;rdquo;
+getGrilleReferentieLinked    func getGrilleReferentieLinked() récupère les données qui lient la grille aux référentiels, en passant par les questions</description>
+    </item>
+    
+    <item>
+      <title>PivotQuestionCompetenceModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table QUESTION_COMPETENCE_PIVOT
+Method Descriptions    linkQuestionToManyCompetence    func linkQuestionToManyCompetence(idQuestion, competenceArray) lie une question à plusieurs compétences
+insertManyRaws    func insertManyRaws(rawsArray) insère plusieurs lignes dans la table QUESTION_COMPETENCE_PIVOT
+flashLinkByQuestionId    func flashLinkByQuestionId(idQuestion) supprime tous les liens de compétences de QuestionId donné en argument
+flashLinkByQuestionIdArray    func flashLinkByQuestionIdArray(questionIdArray) prepareRawByQuestion    func prepareRawByQuestion(idQuestion, competenceArray) prépare plusieurs lignes à insérer dans la table QUESTION_COMPETENCE_PIVOT</description>
+    </item>
+    
+    <item>
+      <title>positionModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access Object à la table POSITIONNEMENT
+Method Descriptions    getEleveList    func getEleveList(idEvaluation) récupère la liste des élèves concernés par l&amp;rsquo;évaluation
+transformEleve    func transformEleve(eleveArray) inutile ?
+getQuestionWithCompetenceByGrilleId    func getQuestionWithCompetenceByGrilleId(idGrille) récupère toutes les questions de la grille donnée en paramètre
+transformQuestionCompetence    func transformQuestionCompetence(qstWithCmpArray) contruit la structure de donnée de la rubrique question</description>
+    </item>
+    
+    <item>
+      <title>QuestionModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/</guid>
+      <description>Method Descriptions    saveManyQuestion    func saveManyQuestion(questionArray, idGrille) sauvegarde plusieurs questions et les lient à la grille passée en argument
+saveQuestion    func saveQuestion(questionDic) crée et met à jour une question
+updateQuestion    func updateQuestion(questionDic) updateQuestionRaw    func updateQuestionRaw(questionDic) createQuestion    func createQuestion(questionDic) crée et lie une question aux compétences associées
+insertQuestionRaw    func insertQuestionRaw(questionDic) insère une nouvelle ligne dans la table QUESTION</description>
+    </item>
+    
+    <item>
+      <title>ReferentielModel</title>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/ReferentielModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/ReferentielModel/</guid>
+      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
+Description    data access object de la table REFERENTIEL
+Method Descriptions    getAllReferentiel    func getAllReferentiel() récupére tous les référentiels de la table REFERENTIEL
+prepareName    func prepareName(refArray) crée le nom du référentiel, ce nom est composé de Discipline et Niveau</description>
+    </item>
+    
+  </channel>
+</rss>

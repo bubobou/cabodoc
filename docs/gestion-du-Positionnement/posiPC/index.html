@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Classes globales">
+<meta name="description" content="posiPC">
 
-<title>Classes globales | Documentation Carnet-de-Bord</title>
+<title>posiPC | Documentation Carnet-de-Bord</title>
 
 <link rel="icon" href="/cabodoc/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -31,7 +31,6 @@
 <link rel="preload" href="/cabodoc/custom.css" as="style">
 <link rel="stylesheet" href="/cabodoc/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="https://bubobou.github.io/cabodoc/classes-globales/index.xml" title="Documentation Carnet-de-Bord" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
 </head>
@@ -1143,7 +1142,7 @@
             
             
                 <span class="flex">
-                    <a href="/cabodoc/gestion-du-Positionnement/posiPC/" class="gdoc-nav__entry ">
+                    <a href="/cabodoc/gestion-du-Positionnement/posiPC/" class="gdoc-nav__entry is-active">
                         posiPC
                     </a>
                 </span>
@@ -1210,7 +1209,15 @@
         
     
     
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Classes globales</span><meta itemprop='position' content='3' /></li>
+        
+        
+        
+        
+    
+    
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/gestion-du-positionnement/' href='/cabodoc/gestion-du-positionnement/'><span itemprop='name'>Gestion du Positionnements</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>posiPC</span><meta itemprop='position' content='4' /></li>
+    
+
     
 
     
@@ -1221,9 +1228,156 @@
     
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Classes globales</h1>
-        
+        <h1>posiPC</h1>
+        <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
+<p><strong>Extends:</strong> <a class="gdoc-markdown__link" href="../PanelContainer">PanelContainer</a></p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="description">
+        Description
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#description" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Description" href="#description">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>gère la page de positionnement des élèves</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="property-descriptions">
+        Property Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#property-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Property Descriptions" href="#property-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="questionrow">
+        questionRow
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#questionrow" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor questionRow" href="#questionrow">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">questionRow</span>
+</code></pre></div><p>la scene du container de question</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="positionmodel">
+        positionModel
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#positionmodel" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor positionModel" href="#positionmodel">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">positionModel</span>
+</code></pre></div><p>instanciation du modèle d&rsquo;accès à la table POSITIONNEMENT</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="elevepicker">
+        elevePicker
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#elevepicker" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor elevePicker" href="#elevepicker">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">elevePicker</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="questionscontainer">
+        questionsContainer
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#questionscontainer" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor questionsContainer" href="#questionscontainer">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">questionsContainer</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="elevename">
+        eleveName
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#elevename" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor eleveName" href="#elevename">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">eleveName</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="posititle">
+        posiTitle
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#posititle" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor posiTitle" href="#posititle">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">posiTitle</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="selectedeleveid">
+        selectedEleveId
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#selectedeleveid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor selectedEleveId" href="#selectedeleveid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">selectedEleveId</span><span class="p">:</span> <span class="ne">int</span>
+</code></pre></div><p>variable contenant l&rsquo;ID de l&rsquo;élève sélectionné</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="idevaluation">
+        idEvaluation
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#idevaluation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor idEvaluation" href="#idevaluation">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">idEvaluation</span><span class="p">:</span> <span class="ne">String</span>
+</code></pre></div><p>variable de type String contenant l&rsquo;ID de l&rsquo;évaluation</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="idgrille">
+        idGrille
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#idgrille" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor idGrille" href="#idgrille">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">idGrille</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h2 id="method-descriptions">
+        Method Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#method-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Method Descriptions" href="#method-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="elevepicker_init">
+        elevePicker_init
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#elevepicker_init" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor elevePicker_init" href="#elevepicker_init">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">elevePicker_init</span><span class="p">(</span><span class="n">evaluation_id</span><span class="p">)</span>
+</code></pre></div><p>initialise le popup de sélection avec nom de l&rsquo;élève</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="questionlist_init">
+        questionList_init
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#questionlist_init" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor questionList_init" href="#questionlist_init">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">questionList_init</span><span class="p">(</span><span class="n">grille_id</span><span class="p">)</span>
+</code></pre></div><p>instanciation, connexion et ajout des containers &ldquo;question&rdquo;</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="on_niveau_update">
+        on_niveau_update
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#on_niveau_update" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor on_niveau_update" href="#on_niveau_update">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">on_niveau_update</span><span class="p">(</span><span class="n">idQuest</span><span class="p">,</span> <span class="n">idComp</span><span class="p">,</span> <span class="n">posValue</span><span class="p">)</span>
+</code></pre></div><p>mise à jour du niveau d&rsquo;une compétence, déclenchée par le signal &ldquo;niveauChange&rdquo; d&rsquo;un bouton &ldquo;boutonComp&rdquo;</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="on_eleve_selected">
+        on_eleve_selected
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#on_eleve_selected" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor on_eleve_selected" href="#on_eleve_selected">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">on_eleve_selected</span><span class="p">(</span><span class="n">id</span><span class="p">)</span>
+</code></pre></div><p>mise à jour du nom et envoi d&rsquo;un signal aux container &ldquo;question&rdquo; avec le positionnement de l&rsquo;élève</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="signals">
+        Signals
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/#signals" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Signals" href="#signals">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><ul>
+<li>signal eleveSelect(data): signal émis lors de la sélection d&rsquo;un élève</li>
+</ul>
+
 
     </article>
 

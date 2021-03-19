@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Classes globales">
+<meta name="description" content="PivotGrilleQuestionModel">
 
-<title>Classes globales | Documentation Carnet-de-Bord</title>
+<title>PivotGrilleQuestionModel | Documentation Carnet-de-Bord</title>
 
 <link rel="icon" href="/cabodoc/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -31,7 +31,6 @@
 <link rel="preload" href="/cabodoc/custom.css" as="style">
 <link rel="stylesheet" href="/cabodoc/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="https://bubobou.github.io/cabodoc/classes-globales/index.xml" title="Documentation Carnet-de-Bord" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
 </head>
@@ -345,7 +344,7 @@
             
             
                 <span class="flex">
-                    <a href="/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/" class="gdoc-nav__entry ">
+                    <a href="/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/" class="gdoc-nav__entry is-active">
                         PivotGrilleQuestionModel
                     </a>
                 </span>
@@ -1210,7 +1209,15 @@
         
     
     
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Classes globales</span><meta itemprop='position' content='3' /></li>
+        
+        
+        
+        
+    
+    
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/data-model-acces/' href='/cabodoc/data-model-acces/'><span itemprop='name'>Data Model Acces</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>PivotGrilleQuestionModel</span><meta itemprop='position' content='4' /></li>
+    
+
     
 
     
@@ -1221,9 +1228,104 @@
     
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Classes globales</h1>
-        
+        <h1>PivotGrilleQuestionModel</h1>
+        <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
+<p><strong>Extends:</strong> <a class="gdoc-markdown__link" href="../baseModel">baseModel</a> &lt; <a class="gdoc-markdown__link" href="../Data">Data</a> &lt; <a class="gdoc-markdown__link" href="../Node">Node</a></p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="description">
+        Description
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#description" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Description" href="#description">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>data access model de la table GRILLE_QUESTION_PIVOT</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="method-descriptions">
+        Method Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#method-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Method Descriptions" href="#method-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="getquestionwithcompetencebygrilleid">
+        getQuestionWithCompetenceByGrilleId
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#getquestionwithcompetencebygrilleid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getQuestionWithCompetenceByGrilleId" href="#getquestionwithcompetencebygrilleid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getQuestionWithCompetenceByGrilleId</span><span class="p">(</span><span class="n">idGrille</span><span class="p">)</span>
+</code></pre></div><p>récupère toutes les questions de la grille donné en paramètre</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="transformquestioncompetence">
+        transformQuestionCompetence
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#transformquestioncompetence" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor transformQuestionCompetence" href="#transformquestioncompetence">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">transformQuestionCompetence</span><span class="p">(</span><span class="n">qstWithCmpArray</span><span class="p">)</span>
+</code></pre></div><p>construit la structure de donnée la rubrique question</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="initializeqstdic">
+        initializeQstDic
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#initializeqstdic" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor initializeQstDic" href="#initializeqstdic">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">initializeQstDic</span><span class="p">(</span><span class="n">qstDic</span><span class="p">,</span> <span class="n">qstId</span><span class="p">)</span>
+</code></pre></div><p>initialise la structure de donnée &ldquo;question&rdquo;</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="getgrillereferentielinked">
+        getGrilleReferentieLinked
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#getgrillereferentielinked" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getGrilleReferentieLinked" href="#getgrillereferentielinked">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getGrilleReferentieLinked</span><span class="p">()</span>
+</code></pre></div><p>récupère les données qui lient la grille aux référentiels, en passant par les questions</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="linkgrilletomanyquestion">
+        linkGrilleToManyQuestion
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#linkgrilletomanyquestion" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor linkGrilleToManyQuestion" href="#linkgrilletomanyquestion">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">linkGrilleToManyQuestion</span><span class="p">(</span><span class="n">idGrille</span><span class="p">,</span> <span class="n">questionIdArray</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="insertmanyraws">
+        insertManyRaws
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#insertmanyraws" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor insertManyRaws" href="#insertmanyraws">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">insertManyRaws</span><span class="p">(</span><span class="n">rawsArray</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="preparerawbygrille">
+        prepareRawByGrille
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#preparerawbygrille" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor prepareRawByGrille" href="#preparerawbygrille">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">prepareRawByGrille</span><span class="p">(</span><span class="n">idGrille</span><span class="p">,</span> <span class="n">questionIdArray</span><span class="p">)</span>
+</code></pre></div><p>prépare les lignes pour insertion dans la table GRILLE_QUESTION_PIVOT</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="flashlinkbygrilleid">
+        flashLinkByGrilleId
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#flashlinkbygrilleid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor flashLinkByGrilleId" href="#flashlinkbygrilleid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">flashLinkByGrilleId</span><span class="p">(</span><span class="n">idGrille</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="getquestionbygrilleid">
+        getQuestionByGrilleId
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/#getquestionbygrilleid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getQuestionByGrilleId" href="#getquestionbygrilleid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getQuestionByGrilleId</span><span class="p">(</span><span class="n">idGrille</span><span class="p">)</span>
+</code></pre></div>
 
     </article>
 

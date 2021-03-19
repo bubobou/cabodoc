@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Classes globales">
+<meta name="description" content="PivotQuestionCompetenceModel">
 
-<title>Classes globales | Documentation Carnet-de-Bord</title>
+<title>PivotQuestionCompetenceModel | Documentation Carnet-de-Bord</title>
 
 <link rel="icon" href="/cabodoc/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -31,7 +31,6 @@
 <link rel="preload" href="/cabodoc/custom.css" as="style">
 <link rel="stylesheet" href="/cabodoc/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="https://bubobou.github.io/cabodoc/classes-globales/index.xml" title="Documentation Carnet-de-Bord" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
 </head>
@@ -369,7 +368,7 @@
             
             
                 <span class="flex">
-                    <a href="/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/" class="gdoc-nav__entry ">
+                    <a href="/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/" class="gdoc-nav__entry is-active">
                         PivotQuestionCompetenceModel
                     </a>
                 </span>
@@ -1210,7 +1209,15 @@
         
     
     
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Classes globales</span><meta itemprop='position' content='3' /></li>
+        
+        
+        
+        
+    
+    
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/data-model-acces/' href='/cabodoc/data-model-acces/'><span itemprop='name'>Data Model Acces</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>PivotQuestionCompetenceModel</span><meta itemprop='position' content='4' /></li>
+    
+
     
 
     
@@ -1221,9 +1228,71 @@
     
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Classes globales</h1>
-        
+        <h1>PivotQuestionCompetenceModel</h1>
+        <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
+<p><strong>Extends:</strong> <a class="gdoc-markdown__link" href="../baseModel">baseModel</a> &lt; <a class="gdoc-markdown__link" href="../Data">Data</a> &lt; <a class="gdoc-markdown__link" href="../Node">Node</a></p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="description">
+        Description
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/#description" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Description" href="#description">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>data access object de la table QUESTION_COMPETENCE_PIVOT</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="method-descriptions">
+        Method Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/#method-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Method Descriptions" href="#method-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="linkquestiontomanycompetence">
+        linkQuestionToManyCompetence
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/#linkquestiontomanycompetence" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor linkQuestionToManyCompetence" href="#linkquestiontomanycompetence">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">linkQuestionToManyCompetence</span><span class="p">(</span><span class="n">idQuestion</span><span class="p">,</span> <span class="n">competenceArray</span><span class="p">)</span>
+</code></pre></div><p>lie une question à plusieurs compétences</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="insertmanyraws">
+        insertManyRaws
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/#insertmanyraws" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor insertManyRaws" href="#insertmanyraws">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">insertManyRaws</span><span class="p">(</span><span class="n">rawsArray</span><span class="p">)</span>
+</code></pre></div><p>insère plusieurs lignes dans la table QUESTION_COMPETENCE_PIVOT</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="flashlinkbyquestionid">
+        flashLinkByQuestionId
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/#flashlinkbyquestionid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor flashLinkByQuestionId" href="#flashlinkbyquestionid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">flashLinkByQuestionId</span><span class="p">(</span><span class="n">idQuestion</span><span class="p">)</span>
+</code></pre></div><p>supprime tous les liens de compétences de QuestionId donné en argument</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="flashlinkbyquestionidarray">
+        flashLinkByQuestionIdArray
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/#flashlinkbyquestionidarray" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor flashLinkByQuestionIdArray" href="#flashlinkbyquestionidarray">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">flashLinkByQuestionIdArray</span><span class="p">(</span><span class="n">questionIdArray</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="preparerawbyquestion">
+        prepareRawByQuestion
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/#preparerawbyquestion" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor prepareRawByQuestion" href="#preparerawbyquestion">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">prepareRawByQuestion</span><span class="p">(</span><span class="n">idQuestion</span><span class="p">,</span> <span class="n">competenceArray</span><span class="p">)</span>
+</code></pre></div><p>prépare plusieurs lignes à insérer dans la table QUESTION_COMPETENCE_PIVOT</p>
+
 
     </article>
 

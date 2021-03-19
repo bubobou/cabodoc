@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Classes globales">
+<meta name="description" content="baseModel">
 
-<title>Classes globales | Documentation Carnet-de-Bord</title>
+<title>baseModel | Documentation Carnet-de-Bord</title>
 
 <link rel="icon" href="/cabodoc/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -31,7 +31,6 @@
 <link rel="preload" href="/cabodoc/custom.css" as="style">
 <link rel="stylesheet" href="/cabodoc/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="https://bubobou.github.io/cabodoc/classes-globales/index.xml" title="Documentation Carnet-de-Bord" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
 </head>
@@ -201,7 +200,7 @@
             
             
                 <span class="flex">
-                    <a href="/cabodoc/Data-Model-Acces/baseModel/" class="gdoc-nav__entry ">
+                    <a href="/cabodoc/Data-Model-Acces/baseModel/" class="gdoc-nav__entry is-active">
                         baseModel
                     </a>
                 </span>
@@ -1210,7 +1209,15 @@
         
     
     
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Classes globales</span><meta itemprop='position' content='3' /></li>
+        
+        
+        
+        
+    
+    
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/data-model-acces/' href='/cabodoc/data-model-acces/'><span itemprop='name'>Data Model Acces</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>baseModel</span><meta itemprop='position' content='4' /></li>
+    
+
     
 
     
@@ -1221,9 +1228,124 @@
     
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Classes globales</h1>
-        
+        <h1>baseModel</h1>
+        <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
+<p><strong>Extends:</strong> <a class="gdoc-markdown__link" href="../Data">Data</a> &lt; <a class="gdoc-markdown__link" href="../Node">Node</a></p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="description">
+        Description
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#description" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Description" href="#description">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>modèle de data access object</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="constants-descriptions">
+        Constants Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#constants-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Constants Descriptions" href="#constants-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="sqlite">
+        SQLite
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#sqlite" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor SQLite" href="#sqlite">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">const</span> <span class="n">SQLite</span><span class="p">:</span> <span class="n">NativeScript</span> <span class="o">=</span> <span class="nb">preload</span><span class="p">(</span><span class="s2">&#34;res://addons/godot-sqlite/bin/gdsqlite.gdns&#34;</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h2 id="property-descriptions">
+        Property Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#property-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Property Descriptions" href="#property-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="db">
+        db
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#db" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor db" href="#db">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">db</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="dbname">
+        dbName
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#dbname" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor dbName" href="#dbname">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">dbName</span><span class="p">:</span> <span class="ne">String</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="jsonname">
+        jsonName
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#jsonname" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor jsonName" href="#jsonname">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">jsonName</span><span class="p">:</span> <span class="ne">String</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h2 id="method-descriptions">
+        Method Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#method-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Method Descriptions" href="#method-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="cprint">
+        cprint
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#cprint" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor cprint" href="#cprint">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">cprint</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="ne">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="copy_data_to_user">
+        copy_data_to_user
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#copy_data_to_user" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor copy_data_to_user" href="#copy_data_to_user">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">copy_data_to_user</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">void</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="connectdb">
+        connectDb
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#connectdb" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor connectDb" href="#connectdb">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">connectDb</span><span class="p">()</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="getlastinsertedid">
+        getLastInsertedId
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#getlastinsertedid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getLastInsertedId" href="#getlastinsertedid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getLastInsertedId</span><span class="p">(</span><span class="n">tableName</span><span class="p">)</span>
+</code></pre></div><p>obtenir le dernier Id inseré dans une table de la base de données, donnée en paramètre</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="deletemultirawbyfieldinarray">
+        deleteMultiRawByFieldInArray
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#deletemultirawbyfieldinarray" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor deleteMultiRawByFieldInArray" href="#deletemultirawbyfieldinarray">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">deleteMultiRawByFieldInArray</span><span class="p">(</span><span class="n">tableName</span><span class="p">,</span> <span class="n">fieldName</span><span class="p">,</span> <span class="n">valueArray</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h2 id="signals">
+        Signals
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/#signals" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Signals" href="#signals">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><ul>
+<li>signal output_received(text):</li>
+</ul>
+
 
     </article>
 

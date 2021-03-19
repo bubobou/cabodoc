@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Classes globales">
+<meta name="description" content="QuestionModel">
 
-<title>Classes globales | Documentation Carnet-de-Bord</title>
+<title>QuestionModel | Documentation Carnet-de-Bord</title>
 
 <link rel="icon" href="/cabodoc/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -31,7 +31,6 @@
 <link rel="preload" href="/cabodoc/custom.css" as="style">
 <link rel="stylesheet" href="/cabodoc/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="https://bubobou.github.io/cabodoc/classes-globales/index.xml" title="Documentation Carnet-de-Bord" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
 </head>
@@ -417,7 +416,7 @@
             
             
                 <span class="flex">
-                    <a href="/cabodoc/Data-Model-Acces/QuestionModel/" class="gdoc-nav__entry ">
+                    <a href="/cabodoc/Data-Model-Acces/QuestionModel/" class="gdoc-nav__entry is-active">
                         QuestionModel
                     </a>
                 </span>
@@ -1210,7 +1209,15 @@
         
     
     
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Classes globales</span><meta itemprop='position' content='3' /></li>
+        
+        
+        
+        
+    
+    
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/data-model-acces/' href='/cabodoc/data-model-acces/'><span itemprop='name'>Data Model Acces</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>QuestionModel</span><meta itemprop='position' content='4' /></li>
+    
+
     
 
     
@@ -1221,9 +1228,78 @@
     
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Classes globales</h1>
-        
+        <h1>QuestionModel</h1>
+        <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
+<div class="gdoc-page__anchorwrap">
+    <h2 id="method-descriptions">
+        Method Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/#method-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Method Descriptions" href="#method-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="savemanyquestion">
+        saveManyQuestion
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/#savemanyquestion" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor saveManyQuestion" href="#savemanyquestion">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">saveManyQuestion</span><span class="p">(</span><span class="n">questionArray</span><span class="p">,</span> <span class="n">idGrille</span><span class="p">)</span>
+</code></pre></div><p>sauvegarde plusieurs questions et les lient à la grille passée en argument</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="savequestion">
+        saveQuestion
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/#savequestion" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor saveQuestion" href="#savequestion">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">saveQuestion</span><span class="p">(</span><span class="n">questionDic</span><span class="p">)</span>
+</code></pre></div><p>crée et met à jour une question</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="updatequestion">
+        updateQuestion
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/#updatequestion" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor updateQuestion" href="#updatequestion">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">updateQuestion</span><span class="p">(</span><span class="n">questionDic</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="updatequestionraw">
+        updateQuestionRaw
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/#updatequestionraw" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor updateQuestionRaw" href="#updatequestionraw">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">updateQuestionRaw</span><span class="p">(</span><span class="n">questionDic</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="createquestion">
+        createQuestion
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/#createquestion" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor createQuestion" href="#createquestion">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">createQuestion</span><span class="p">(</span><span class="n">questionDic</span><span class="p">)</span>
+</code></pre></div><p>crée et lie une question aux compétences associées</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="insertquestionraw">
+        insertQuestionRaw
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/#insertquestionraw" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor insertQuestionRaw" href="#insertquestionraw">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">insertQuestionRaw</span><span class="p">(</span><span class="n">questionDic</span><span class="p">)</span>
+</code></pre></div><p>insère une nouvelle ligne dans la table QUESTION</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="deletequestioninidarray">
+        deleteQuestionInIdArray
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/#deletequestioninidarray" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor deleteQuestionInIdArray" href="#deletequestioninidarray">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">deleteQuestionInIdArray</span><span class="p">(</span><span class="n">questionIdArray</span><span class="p">)</span>
+</code></pre></div>
 
     </article>
 

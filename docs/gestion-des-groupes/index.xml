@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestion des Groupes on Documentation Carnet-de-Bord</title>
+    <link>https://bubobou.github.io/cabodoc/gestion-des-groupes/</link>
+    <description>Recent content in Gestion des Groupes on Documentation Carnet-de-Bord</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/gestion-des-groupes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gAjoCFSaveB</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Groupes/gAjoCFSaveB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Groupes/gAjoCFSaveB/</guid>
+      <description>Extends: Button
+Description    gère le bouton de sauvegarde du groupe
+Property Descriptions    formNode    var formNode groupForm    var groupForm Method Descriptions    getGroupeDic    func getGroupeDic() getGroupeId    func getGroupeId() getGroupeNom    func getGroupeNom() </description>
+    </item>
+    
+    <item>
+      <title>groCLRLTextB</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Groupes/groCLRLTextB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Groupes/groCLRLTextB/</guid>
+      <description>Extends: Button
+Description    gère l&amp;rsquo;action clique sur le nom du groupe</description>
+    </item>
+    
+    <item>
+      <title>groCLsVBC</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Groupes/groCLsVBC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Groupes/groCLsVBC/</guid>
+      <description>Extends: VBoxContainer
+Description    gère la liste des groupes
+Property Descriptions    groupeModel    var groupeModel Method Descriptions    fillRawData    func fillRawData(groupesArray) fillGroupeName    func fillGroupeName(rawNode, name) fillId    func fillId(rawNode, id) </description>
+    </item>
+    
+  </channel>
+</rss>

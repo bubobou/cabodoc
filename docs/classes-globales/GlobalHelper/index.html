@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Classes globales">
+<meta name="description" content="GlobalHelper">
 
-<title>Classes globales | Documentation Carnet-de-Bord</title>
+<title>GlobalHelper | Documentation Carnet-de-Bord</title>
 
 <link rel="icon" href="/cabodoc/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -31,7 +31,6 @@
 <link rel="preload" href="/cabodoc/custom.css" as="style">
 <link rel="stylesheet" href="/cabodoc/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="https://bubobou.github.io/cabodoc/classes-globales/index.xml" title="Documentation Carnet-de-Bord" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
 </head>
@@ -147,7 +146,7 @@
             
             
                 <span class="flex">
-                    <a href="/cabodoc/classes-globales/GlobalHelper/" class="gdoc-nav__entry ">
+                    <a href="/cabodoc/classes-globales/GlobalHelper/" class="gdoc-nav__entry is-active">
                         GlobalHelper
                     </a>
                 </span>
@@ -1210,7 +1209,15 @@
         
     
     
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Classes globales</span><meta itemprop='position' content='3' /></li>
+        
+        
+        
+        
+    
+    
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/classes-globales/' href='/cabodoc/classes-globales/'><span itemprop='name'>Classes globales</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>GlobalHelper</span><meta itemprop='position' content='4' /></li>
+    
+
     
 
     
@@ -1221,9 +1228,281 @@
     
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Classes globales</h1>
-        
+        <h1>GlobalHelper</h1>
+        <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
+<p><strong>Extends:</strong> <a class="gdoc-markdown__link" href="../Node">Node</a></p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="description">
+        Description
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#description" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Description" href="#description">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>fonctions communes utilisés partout dans tout le code</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="constants-descriptions">
+        Constants Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#constants-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Constants Descriptions" href="#constants-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="hours">
+        HOURS
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#hours" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor HOURS" href="#hours">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">const</span> <span class="n">HOURS</span><span class="p">:</span> <span class="ne">Array</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;00&#34;</span><span class="p">,</span><span class="s2">&#34;01&#34;</span><span class="p">,</span><span class="s2">&#34;02&#34;</span><span class="p">,</span><span class="s2">&#34;03&#34;</span><span class="p">,</span><span class="s2">&#34;04&#34;</span><span class="p">,</span><span class="s2">&#34;05&#34;</span><span class="p">,</span><span class="s2">&#34;06&#34;</span><span class="p">,</span><span class="s2">&#34;07&#34;</span><span class="p">,</span><span class="s2">&#34;08&#34;</span><span class="p">,</span><span class="s2">&#34;09&#34;</span><span class="p">,</span><span class="s2">&#34;10&#34;</span><span class="p">,</span><span class="s2">&#34;11&#34;</span><span class="p">,</span><span class="s2">&#34;12&#34;</span><span class="p">,</span><span class="s2">&#34;13&#34;</span><span class="p">,</span><span class="s2">&#34;14&#34;</span><span class="p">,</span><span class="s2">&#34;15&#34;</span><span class="p">,</span><span class="s2">&#34;16&#34;</span><span class="p">,</span><span class="s2">&#34;17&#34;</span><span class="p">,</span><span class="s2">&#34;18&#34;</span><span class="p">,</span><span class="s2">&#34;19&#34;</span><span class="p">,</span><span class="s2">&#34;20&#34;</span><span class="p">,</span><span class="s2">&#34;21&#34;</span><span class="p">,</span><span class="s2">&#34;22&#34;</span><span class="p">,</span><span class="s2">&#34;23&#34;</span><span class="p">]</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="minutes">
+        MINUTES
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#minutes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor MINUTES" href="#minutes">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">const</span> <span class="n">MINUTES</span><span class="p">:</span> <span class="ne">Array</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;00&#34;</span><span class="p">,</span><span class="s2">&#34;05&#34;</span><span class="p">,</span><span class="s2">&#34;10&#34;</span><span class="p">,</span><span class="s2">&#34;15&#34;</span><span class="p">,</span><span class="s2">&#34;20&#34;</span><span class="p">,</span><span class="s2">&#34;25&#34;</span><span class="p">,</span><span class="s2">&#34;30&#34;</span><span class="p">,</span><span class="s2">&#34;35&#34;</span><span class="p">,</span><span class="s2">&#34;40&#34;</span><span class="p">,</span><span class="s2">&#34;45&#34;</span><span class="p">,</span><span class="s2">&#34;50&#34;</span><span class="p">,</span><span class="s2">&#34;55&#34;</span><span class="p">]</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h2 id="property-descriptions">
+        Property Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#property-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Property Descriptions" href="#property-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="domainemodel">
+        domaineModel
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#domainemodel" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor domaineModel" href="#domainemodel">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">domaineModel</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="competencemodel">
+        competenceModel
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#competencemodel" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor competenceModel" href="#competencemodel">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">competenceModel</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="referentielmodel">
+        referentielModel
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#referentielmodel" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor referentielModel" href="#referentielmodel">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">var</span> <span class="n">referentielModel</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h2 id="method-descriptions">
+        Method Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#method-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Method Descriptions" href="#method-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="fillquestiontext">
+        fillQuestionText
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#fillquestiontext" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor fillQuestionText" href="#fillquestiontext">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">fillQuestionText</span><span class="p">(</span><span class="n">qstText</span><span class="p">,</span> <span class="n">questionNode</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="mergedic">
+        mergeDic
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#mergedic" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor mergeDic" href="#mergedic">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">mergeDic</span><span class="p">(</span><span class="n">dicOne</span><span class="p">,</span> <span class="n">dicTwo</span><span class="p">)</span>
+</code></pre></div><p>ajoute le dictionnaire 2 donné en paramètre au dictionnaire 1 donné en paramètre</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="prepareinstring">
+        prepareInString
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#prepareinstring" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor prepareInString" href="#prepareinstring">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">prepareInString</span><span class="p">(</span><span class="n">valuesArray</span><span class="p">)</span>
+</code></pre></div><p>prépare une chaîne de caractères SQL du IN qui contient une liste de valeurs donnés en paramètre</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="fillreferentieloptionbutton">
+        fillReferentielOptionButton
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#fillreferentieloptionbutton" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor fillReferentielOptionButton" href="#fillreferentieloptionbutton">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">fillReferentielOptionButton</span><span class="p">(</span><span class="n">refOptionsNode</span><span class="p">,</span> <span class="n">idRef</span><span class="p">:</span> <span class="ne">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div><p>remplit la selectbox intitulé &ldquo;Référentiel&rdquo; depuis la base de donnée et sélectionne le réferentiel passé en argument</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="getallreferentiel">
+        getAllReferentiel
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#getallreferentiel" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getAllReferentiel" href="#getallreferentiel">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getAllReferentiel</span><span class="p">()</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="filldomainandcompetance">
+        fillDomainAndCompetance
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#filldomainandcompetance" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor fillDomainAndCompetance" href="#filldomainandcompetance">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">fillDomainAndCompetance</span><span class="p">(</span><span class="n">refId</span><span class="p">,</span> <span class="n">domainOptionsNode</span><span class="p">,</span> <span class="n">competenceOptionsNode</span><span class="p">,</span> <span class="n">domainId</span><span class="p">:</span> <span class="ne">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">competenceIdArray</span><span class="p">:</span> <span class="ne">Array</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div><p>remplit les selectbox Domaines et Compétences à partir de la base de donnée</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="getdomainebyrefid">
+        getDomaineByRefId
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#getdomainebyrefid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getDomaineByRefId" href="#getdomainebyrefid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getDomaineByRefId</span><span class="p">(</span><span class="n">refId</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="fillmanycompetence">
+        fillManyCompetence
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#fillmanycompetence" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor fillManyCompetence" href="#fillmanycompetence">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">fillManyCompetence</span><span class="p">(</span><span class="n">idDomain</span><span class="p">,</span> <span class="n">multiCompetenceNode</span><span class="p">,</span> <span class="n">competenceIdArray</span><span class="p">:</span> <span class="ne">Array</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div><p>remplit les selectbox intitulés &ldquo;Compétences&rdquo; depuis la base de donnée et sélectionne les compétences passés en argument</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="getcompetencearraybydomainid">
+        getCompetenceArrayByDomainId
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#getcompetencearraybydomainid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getCompetenceArrayByDomainId" href="#getcompetencearraybydomainid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getCompetenceArrayByDomainId</span><span class="p">(</span><span class="n">idDomain</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="createmulticompetence">
+        createMultiCompetence
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#createmulticompetence" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor createMultiCompetence" href="#createmulticompetence">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">createMultiCompetence</span><span class="p">(</span><span class="n">parentNode</span><span class="p">,</span> <span class="n">childNumber</span><span class="p">)</span>
+</code></pre></div><p>duplique la scène qui contient une ligne de compétence = selectbox + button (+/-)</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="removeallchildren">
+        removeAllChildren
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#removeallchildren" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor removeAllChildren" href="#removeallchildren">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">removeAllChildren</span><span class="p">(</span><span class="n">nodeObject</span><span class="p">)</span>
+</code></pre></div><p>supprime les enfants d&rsquo;un noeud donné</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="fillcompetanceoptionbutton">
+        fillCompetanceOptionButton
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#fillcompetanceoptionbutton" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor fillCompetanceOptionButton" href="#fillcompetanceoptionbutton">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">fillCompetanceOptionButton</span><span class="p">(</span><span class="n">competanceArray</span><span class="p">,</span> <span class="n">competenceOptionsNode</span><span class="p">,</span> <span class="n">competenceId</span><span class="p">:</span> <span class="ne">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div><p>remplit la selectbox intitulé &ldquo;Compétences&rdquo; depuis la base de donnée et sélectionne la compétence passée en argument</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="filldomaineoptionbutton">
+        fillDomaineOptionButton
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#filldomaineoptionbutton" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor fillDomaineOptionButton" href="#filldomaineoptionbutton">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">fillDomaineOptionButton</span><span class="p">(</span><span class="n">domaineArray</span><span class="p">,</span> <span class="n">domainOptionsNode</span><span class="p">,</span> <span class="n">domainId</span><span class="p">:</span> <span class="ne">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div><p>remplit la selectbox intitulé &ldquo;Domaine&rdquo; depuis la base de donnée et sélectionne le domaine passé en argument</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="setchildrennumber">
+        setChildrenNumber
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#setchildrennumber" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor setChildrenNumber" href="#setchildrennumber">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">setChildrenNumber</span><span class="p">(</span><span class="n">parentNode</span><span class="p">)</span>
+</code></pre></div><p>numérote toutes les questions du formulaire de création/modification d&rsquo;une grille</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="setquestionnumber">
+        setQuestionNumber
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#setquestionnumber" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor setQuestionNumber" href="#setquestionnumber">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">setQuestionNumber</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
+</code></pre></div><p>attribue un numéro à une question du formulaire de création/modification d&rsquo;une grille</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="displayform">
+        displayForm
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#displayform" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor displayForm" href="#displayform">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">displayForm</span><span class="p">(</span><span class="n">formData</span><span class="p">)</span>
+</code></pre></div><p>met en couleur les champs requis d&rsquo;un formulaire</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="highlightwrongfield">
+        highlightWrongField
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#highlightwrongfield" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor highlightWrongField" href="#highlightwrongfield">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">highlightWrongField</span><span class="p">(</span><span class="n">pathArray</span><span class="p">)</span>
+</code></pre></div><p>met en couleur les champs erronnés</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="addredborder">
+        addRedBorder
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#addredborder" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor addRedBorder" href="#addredborder">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">addRedBorder</span><span class="p">(</span><span class="n">nodeObject</span><span class="p">)</span>
+</code></pre></div><p>ajoute une bordure rouge</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="addredbordertonormalstyle">
+        addRedBorderToNormalStyle
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#addredbordertonormalstyle" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor addRedBorderToNormalStyle" href="#addredbordertonormalstyle">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">addRedBorderToNormalStyle</span><span class="p">(</span><span class="n">nodeObject</span><span class="p">)</span>
+</code></pre></div><p>ajoute une bordure rouge au style normal</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="preparetext">
+        prepareText
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#preparetext" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor prepareText" href="#preparetext">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">prepareText</span><span class="p">(</span><span class="n">textString</span><span class="p">,</span> <span class="n">maxChar</span><span class="p">:</span> <span class="ne">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="duplicatefirstchild">
+        duplicateFirstChild
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#duplicatefirstchild" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor duplicateFirstChild" href="#duplicatefirstchild">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">duplicateFirstChild</span><span class="p">(</span><span class="n">size</span><span class="p">,</span> <span class="n">parentNode</span><span class="p">,</span> <span class="n">hideZero</span><span class="p">:</span> <span class="ne">bool</span> <span class="o">=</span> <span class="bp">true</span><span class="p">)</span>
+</code></pre></div><p>multiplie ou cache le premier noeud enfant du noeud parent donné en argument, un nombre de fois donné en argument</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="pluckarrayofdicbycolumn">
+        pluckArrayOfDicByColumn
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#pluckarrayofdicbycolumn" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor pluckArrayOfDicByColumn" href="#pluckarrayofdicbycolumn">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">pluckArrayOfDicByColumn</span><span class="p">(</span><span class="n">dicArray</span><span class="p">,</span> <span class="n">fieldName</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h3 id="filloptionbutton">
+        fillOptionButton
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/#filloptionbutton" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor fillOptionButton" href="#filloptionbutton">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">fillOptionButton</span><span class="p">(</span><span class="n">optionButtonNode</span><span class="p">:</span> <span class="ne">OptionButton</span><span class="p">,</span> <span class="n">labelArray</span><span class="p">:</span> <span class="ne">Array</span><span class="p">,</span> <span class="n">idArray</span><span class="p">:</span> <span class="ne">Array</span><span class="p">,</span> <span class="n">toSelectndex</span><span class="p">:</span> <span class="ne">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div>
 
     </article>
 

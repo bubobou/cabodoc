@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestion des Evaluations on Documentation Carnet-de-Bord</title>
+    <link>https://bubobou.github.io/cabodoc/gestion-des-evaluations/</link>
+    <description>Recent content in Gestion des Evaluations on Documentation Carnet-de-Bord</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/gestion-des-evaluations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>evalAjoPC</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/evalAjoPC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/evalAjoPC/</guid>
+      <description>Extends: PanelContainer
+Description    gère la page d&amp;rsquo;ajout de création d&amp;rsquo;une évaluation
+Property Descriptions    calendar_button_node    var calendar_button_node date_label_node    var date_label_node Method Descriptions    get_date    func get_date(date_obj) </description>
+    </item>
+    
+    <item>
+      <title>EvalCLVBC</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalCLVBC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalCLVBC/</guid>
+      <description>Extends: VBoxContainer
+Description    gère la liste des évaluations
+Property Descriptions    evaluationModel    var evaluationModel grilleModel    var grilleModel groupeModel    var groupeModel Method Descriptions    fillEvaluationRaws    func fillEvaluationRaws(evalDic) remplit les lignes de la liste de grilles
+fillGroupeName    func fillGroupeName(rawNode, groupeText) remplit la colonne niveau de la ligne liste des grilles</description>
+    </item>
+    
+    <item>
+      <title>EvalGriCLRLTextB</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalGriCLRLTextB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalGriCLRLTextB/</guid>
+      <description>Extends: Button
+Description    gère la sélection de la grille</description>
+    </item>
+    
+    <item>
+      <title>EvalgrlCLVBC</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalgrlCLVBC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalgrlCLVBC/</guid>
+      <description>Extends: VBoxContainer
+Description    Property Descriptions    grilleModel    var grilleModel Method Descriptions    fillGrilleRaws    func fillGrilleRaws(grilleDic) remplit les lignes de la liste de grilles
+fillGrilleNiveau    func fillGrilleNiveau(rawNode, niveauText) remplit la colonne niveau de la ligne liste des grilles
+fillGrilleDiscipline    func fillGrilleDiscipline(rawNode, disciplineText) remplit la colonne discipline de la ligne liste des grilles</description>
+    </item>
+    
+  </channel>
+</rss>

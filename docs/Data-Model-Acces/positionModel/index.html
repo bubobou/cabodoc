@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Classes globales">
+<meta name="description" content="positionModel">
 
-<title>Classes globales | Documentation Carnet-de-Bord</title>
+<title>positionModel | Documentation Carnet-de-Bord</title>
 
 <link rel="icon" href="/cabodoc/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -31,7 +31,6 @@
 <link rel="preload" href="/cabodoc/custom.css" as="style">
 <link rel="stylesheet" href="/cabodoc/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="https://bubobou.github.io/cabodoc/classes-globales/index.xml" title="Documentation Carnet-de-Bord" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
 </head>
@@ -393,7 +392,7 @@
             
             
                 <span class="flex">
-                    <a href="/cabodoc/Data-Model-Acces/positionModel/" class="gdoc-nav__entry ">
+                    <a href="/cabodoc/Data-Model-Acces/positionModel/" class="gdoc-nav__entry is-active">
                         positionModel
                     </a>
                 </span>
@@ -1210,7 +1209,15 @@
         
     
     
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Classes globales</span><meta itemprop='position' content='3' /></li>
+        
+        
+        
+        
+    
+    
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/' href='/cabodoc/'><span itemprop='name'>Documentation Carnet-de-Bord</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/cabodoc/data-model-acces/' href='/cabodoc/data-model-acces/'><span itemprop='name'>Data Model Acces</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>positionModel</span><meta itemprop='position' content='4' /></li>
+    
+
     
 
     
@@ -1221,9 +1228,98 @@
     
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Classes globales</h1>
-        
+        <h1>positionModel</h1>
+        <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
+<p><strong>Extends:</strong> <a class="gdoc-markdown__link" href="../baseModel">baseModel</a> &lt; <a class="gdoc-markdown__link" href="../Data">Data</a> &lt; <a class="gdoc-markdown__link" href="../Node">Node</a></p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="description">
+        Description
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#description" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Description" href="#description">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>data access Object à la table POSITIONNEMENT</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="method-descriptions">
+        Method Descriptions
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#method-descriptions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Method Descriptions" href="#method-descriptions">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="gdoc-page__anchorwrap">
+    <h3 id="getelevelist">
+        getEleveList
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#getelevelist" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getEleveList" href="#getelevelist">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getEleveList</span><span class="p">(</span><span class="n">idEvaluation</span><span class="p">)</span>
+</code></pre></div><p>récupère la liste des élèves concernés par l&rsquo;évaluation</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="transformeleve">
+        transformEleve
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#transformeleve" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor transformEleve" href="#transformeleve">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">transformEleve</span><span class="p">(</span><span class="n">eleveArray</span><span class="p">)</span>
+</code></pre></div><p>inutile ?</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="getquestionwithcompetencebygrilleid">
+        getQuestionWithCompetenceByGrilleId
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#getquestionwithcompetencebygrilleid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getQuestionWithCompetenceByGrilleId" href="#getquestionwithcompetencebygrilleid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getQuestionWithCompetenceByGrilleId</span><span class="p">(</span><span class="n">idGrille</span><span class="p">)</span>
+</code></pre></div><p>récupère toutes les questions de la grille donnée en paramètre</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="transformquestioncompetence">
+        transformQuestionCompetence
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#transformquestioncompetence" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor transformQuestionCompetence" href="#transformquestioncompetence">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">transformQuestionCompetence</span><span class="p">(</span><span class="n">qstWithCmpArray</span><span class="p">)</span>
+</code></pre></div><p>contruit la structure de donnée de la rubrique question</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="initializeqstdic">
+        initializeQstDic
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#initializeqstdic" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor initializeQstDic" href="#initializeqstdic">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">initializeQstDic</span><span class="p">(</span><span class="n">qstDic</span><span class="p">,</span> <span class="n">qstId</span><span class="p">)</span>
+</code></pre></div><p>intialise la structure de donnée &ldquo;question&rdquo;</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="updateposition">
+        updatePosition
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#updateposition" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor updatePosition" href="#updateposition">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">updatePosition</span><span class="p">(</span><span class="n">id_eleve</span><span class="p">,</span> <span class="n">id_evaluation</span><span class="p">,</span> <span class="n">id_question</span><span class="p">,</span> <span class="n">id_competence</span><span class="p">,</span> <span class="n">position</span><span class="p">)</span>
+</code></pre></div><p>affectation d&rsquo;une nouvelle valeur de position pour la compétence évaluée</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="getposition">
+        getPosition
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#getposition" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getPosition" href="#getposition">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getPosition</span><span class="p">(</span><span class="n">id_eleve</span><span class="p">,</span> <span class="n">id_evaluation</span><span class="p">,</span> <span class="n">id_question</span><span class="p">,</span> <span class="n">id_competence</span><span class="p">)</span>
+</code></pre></div><p>récupération de la valeur d&rsquo;une position correspondant à une ligne de la table POSITIONNEMENT</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="getgrillenamebyid">
+        getGrilleNameById
+        <a data-clipboard-text="https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/#getgrillenamebyid" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor getGrilleNameById" href="#getgrillenamebyid">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div><div class="highlight"><pre class="chroma"><code class="language-gdscript" data-lang="gdscript"><span class="k">func</span> <span class="n">getGrilleNameById</span><span class="p">(</span><span class="n">idGrille</span><span class="p">)</span>
+</code></pre></div>
 
     </article>
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestion du Positionnements on Documentation Carnet-de-Bord</title>
+    <link>https://bubobou.github.io/cabodoc/gestion-du-positionnement/</link>
+    <description>Recent content in Gestion du Positionnements on Documentation Carnet-de-Bord</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/gestion-du-positionnement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>posCFCompB</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posCFCompB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posCFCompB/</guid>
+      <description>Extends: Button
+Description    bouton d&amp;rsquo;évaluation des compétence
+Property Descriptions    sceneNode    var sceneNode récupération du noeud de la scène &amp;ldquo;évaluation&amp;rdquo;
+positionModel    var positionModel instanciation du modèle d&amp;rsquo;accès à la table POSITIONNEMENT
+new_style    var new_style intanciation d&amp;rsquo;un stylebox pour l&amp;rsquo;appliquer au bouton
+idEval    var idEval: String identifiant de l&amp;rsquo;évaluation (String)
+posValue    var posValue: int positionnement (niveau) de la compétence</description>
+    </item>
+    
+    <item>
+      <title>posCFQuestionPC</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posCFQuestionPC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posCFQuestionPC/</guid>
+      <description>Extends: PanelContainer
+Description    container de question pour la vue positionnement
+Property Descriptions    boutonComp    var boutonComp labelId    var labelId labelText    var labelText questHbox    var questHbox dataQuest    var dataQuest: Dictionary dictionnnaire stockant les données de la question (id, liste de compétences)
+Method Descriptions    eleve_selected    func eleve_selected(data) transmission des niveau des compétences de la question aux boutons &amp;ldquo;boutonComp&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>posiPC</title>
+      <link>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/</guid>
+      <description>Extends: PanelContainer
+Description    gère la page de positionnement des élèves
+Property Descriptions    questionRow    var questionRow la scene du container de question
+positionModel    var positionModel instanciation du modèle d&amp;rsquo;accès à la table POSITIONNEMENT
+elevePicker    var elevePicker questionsContainer    var questionsContainer eleveName    var eleveName posiTitle    var posiTitle selectedEleveId    var selectedEleveId: int variable contenant l&amp;rsquo;ID de l&amp;rsquo;élève sélectionné</description>
+    </item>
+    
+  </channel>
+</rss>

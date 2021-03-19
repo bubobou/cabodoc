@@ -6,13 +6,13 @@
     <description>Recent content on Documentation Carnet-de-Bord</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bubobou.github.io/cabodoc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>baseModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/baseModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/baseModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/baseModel/</guid>
       <description>Extends: Data &amp;lt; Node
 Description    modèle de data access object
 Constants Descriptions    SQLite    const SQLite: NativeScript = preload(&amp;#34;res://addons/godot-sqlite/bin/gdsqlite.gdns&amp;#34;) Property Descriptions    db    var db dbName    var dbName: String jsonName    var jsonName: String Method Descriptions    cprint    func cprint(text: String) -&amp;gt; void copy_data_to_user    func copy_data_to_user() -&amp;gt; void connectDb    func connectDb() getLastInsertedId    func getLastInsertedId(tableName) obtenir le dernier Id inseré dans une table de la base de données, donnée en paramètre</description>
@@ -20,20 +20,20 @@ Constants Descriptions    SQLite    const SQLite: NativeScript = preload(&amp;#3
     
     <item>
       <title>ComCFQuestionPC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/ComCFQuestionPC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/ComCFQuestionPC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/ComCFQuestionPC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/ComCFQuestionPC/</guid>
       <description>Extends: PanelContainer
 Description    Property Descriptions    refId    var refId domaineId    var domaineId competenceIdArray    var competenceIdArray questionText    var questionText Method Descriptions    init    func init(refId, domaineId, competenceIdArray, questionText: String = &amp;#34;&amp;#34;) initialise les paramètres utilisés dans la construction de la scène Question</description>
     </item>
     
     <item>
       <title>CompetenceModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/CompetenceModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/CompetenceModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/CompetenceModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/CompetenceModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table COMPETENCE
 Method Descriptions    getCompetenceArrayByDomainId    func getCompetenceArrayByDomainId(idDomain) récupère toutes les compétences du domaine donné en paramètre</description>
@@ -41,10 +41,10 @@ Method Descriptions    getCompetenceArrayByDomainId    func getCompetenceArrayBy
     
     <item>
       <title>Data</title>
-      <link>https://bubobou.github.io/cabodoc/classes/Data/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/Data/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/Data/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/Data/</guid>
       <description>Extends: Node
 Description    mapping des noms utilisés dans le code avec les noms des tables et des champs utilisés dans la base de données
 Property Descriptions    eleveTable    var eleveTable: String eleveId    var eleveId: String eleveNom    var eleveNom: String elevePrenom    var elevePrenom: String groupeTable    var groupeTable: String groupeId    var groupeId: String groupeNom    var groupeNom: String eleveGroupPivotTable    var eleveGroupPivotTable: String eleveGroupPivotEleveId    var eleveGroupPivotEleveId: String eleveGroupPivotGroupeId    var eleveGroupPivotGroupeId: String grilleTable    var grilleTable: String grilleId    var grilleId: String grilleName    var grilleName: String questionTable    var questionTable: String questionId    var questionId: String questionText    var questionText: String questionReferentielId    var questionReferentielId: String questionDomainId    var questionDomainId: String grilleQuestionPivotTable    var grilleQuestionPivotTable: String grilleQuestionPivotQuestionId    var grilleQuestionPivotQuestionId: String grilleQuestionPivotGrilleId    var grilleQuestionPivotGrilleId: String referentielTable    var referentielTable: String referentielId    var referentielId: String referentielCycle    var referentielCycle: String referentielNiveau    var referentielNiveau: String referentielDiscipline    var referentielDiscipline: String referentielType    var referentielType: String domaineTable    var domaineTable: String domaineId    var domaineId: String domaineNom    var domaineNom: String domainReferentielId    var domainReferentielId: String competenceTable    var competenceTable: String competenceId    var competenceId: String competenceCapacite    var competenceCapacite: String competenceConnaissance    var competenceConnaissance: String competenceType    var competenceType: String competenceDomaineId    var competenceDomaineId: String competenceEditText    var competenceEditText: String questionCompetencePivotTable    var questionCompetencePivotTable: String questionCompetencePivotQuestionId    var questionCompetencePivotQuestionId: String questionCompetencePivotCompetenceId    var questionCompetencePivotCompetenceId: String evaluationTable    var evaluationTable: String evaluationId    var evaluationId: String evaluationGrilleId    var evaluationGrilleId: String evaluationGroupeId    var evaluationGroupeId: String evaluationDate    var evaluationDate: String positionTable    var positionTable: String positionEleveId    var positionEleveId: String positionEvaluationId    var positionEvaluationId: String positionQuestionId    var positionQuestionId: String positionCompetenceId    var positionCompetenceId: String positionValue    var positionValue: String </description>
@@ -52,10 +52,10 @@ Property Descriptions    eleveTable    var eleveTable: String eleveId    var ele
     
     <item>
       <title>DomaineModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/DomaineModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/DomaineModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/DomaineModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/DomaineModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table DOMAINE
 Method Descriptions    getDomaineByRefId    func getDomaineByRefId(refId) récupère tous les domaines du référentiel donné en paramètre</description>
@@ -63,10 +63,10 @@ Method Descriptions    getDomaineByRefId    func getDomaineByRefId(refId) récup
     
     <item>
       <title>eAjoCFSaveB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/eAjoCFSaveB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Eleves/eAjoCFSaveB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/eAjoCFSaveB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Eleves/eAjoCFSaveB/</guid>
       <description>Extends: Button
 Description    gère le bouton de sauvegarde de l&amp;rsquo;élève
 Property Descriptions    eleveModel    var eleveModel formNode    var formNode eleveForm    var eleveForm Method Descriptions    getEleveDic    func getEleveDic() getEleveId    func getEleveId() getEleveGroupes    func getEleveGroupes() recuperer les groupes de l&amp;rsquo;eleve et remplir le eleveForm dic for validation</description>
@@ -74,20 +74,20 @@ Property Descriptions    eleveModel    var eleveModel formNode    var formNode e
     
     <item>
       <title>eleCLRLTextB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/eleCLRLTextB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Eleves/eleCLRLTextB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/eleCLRLTextB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Eleves/eleCLRLTextB/</guid>
       <description>Extends: Button
 Description    gère l&amp;rsquo;action clique sur le nom de l&amp;rsquo;élève&#39;</description>
     </item>
     
     <item>
       <title>eleCLVBC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/eleCLVBC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Eleves/eleCLVBC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/eleCLVBC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Eleves/eleCLVBC/</guid>
       <description>Extends: VBoxContainer
 Description    gère la liste des élèves
 Property Descriptions    eleveModel    var eleveModel Method Descriptions    fillRawData    func fillRawData(eleveDic) fillId    func fillId(rawNode, id) fillName    func fillName(rawNode, name) fillGroupes    func fillGroupes(rawNode, groupes) </description>
@@ -95,10 +95,10 @@ Property Descriptions    eleveModel    var eleveModel Method Descriptions    fil
     
     <item>
       <title>evalAjoPC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/evalAjoPC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/evalAjoPC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/evalAjoPC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/evalAjoPC/</guid>
       <description>Extends: PanelContainer
 Description    gère la page d&amp;rsquo;ajout de création d&amp;rsquo;une évaluation
 Property Descriptions    calendar_button_node    var calendar_button_node date_label_node    var date_label_node Method Descriptions    get_date    func get_date(date_obj) </description>
@@ -106,10 +106,10 @@ Property Descriptions    calendar_button_node    var calendar_button_node date_l
     
     <item>
       <title>EvalCLVBC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/EvalCLVBC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalCLVBC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/EvalCLVBC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalCLVBC/</guid>
       <description>Extends: VBoxContainer
 Description    gère la liste des évaluations
 Property Descriptions    evaluationModel    var evaluationModel grilleModel    var grilleModel groupeModel    var groupeModel Method Descriptions    fillEvaluationRaws    func fillEvaluationRaws(evalDic) remplit les lignes de la liste de grilles
@@ -118,20 +118,20 @@ fillGroupeName    func fillGroupeName(rawNode, groupeText) remplit la colonne ni
     
     <item>
       <title>EvalGriCLRLTextB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/EvalGriCLRLTextB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalGriCLRLTextB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/EvalGriCLRLTextB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalGriCLRLTextB/</guid>
       <description>Extends: Button
 Description    gère la sélection de la grille</description>
     </item>
     
     <item>
       <title>EvalgrlCLVBC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/EvalgrlCLVBC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalgrlCLVBC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/EvalgrlCLVBC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Evaluations/EvalgrlCLVBC/</guid>
       <description>Extends: VBoxContainer
 Description    Property Descriptions    grilleModel    var grilleModel Method Descriptions    fillGrilleRaws    func fillGrilleRaws(grilleDic) remplit les lignes de la liste de grilles
 fillGrilleNiveau    func fillGrilleNiveau(rawNode, niveauText) remplit la colonne niveau de la ligne liste des grilles
@@ -140,10 +140,10 @@ fillGrilleDiscipline    func fillGrilleDiscipline(rawNode, disciplineText) rempl
     
     <item>
       <title>EvaluationModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/EvaluationModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/EvaluationModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/EvaluationModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/EvaluationModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table EVALUATION
 Method Descriptions    getEvaluationById    func getEvaluationById(idEvaluation) getGrilleEvalById    func getGrilleEvalById(idGrille) getGroupeEvalById    func getGroupeEvalById(idGroupe) getEvaluationList    func getEvaluationList() récupère la liste des évaluations
@@ -153,10 +153,10 @@ createNewPositionnement    func createNewPositionnement(idEvaluation) crée les 
     
     <item>
       <title>gAjoCFSaveB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/gAjoCFSaveB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Groupes/gAjoCFSaveB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/gAjoCFSaveB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Groupes/gAjoCFSaveB/</guid>
       <description>Extends: Button
 Description    gère le bouton de sauvegarde du groupe
 Property Descriptions    formNode    var formNode groupForm    var groupForm Method Descriptions    getGroupeDic    func getGroupeDic() getGroupeId    func getGroupeId() getGroupeNom    func getGroupeNom() </description>
@@ -164,10 +164,10 @@ Property Descriptions    formNode    var formNode groupForm    var groupForm Met
     
     <item>
       <title>Global</title>
-      <link>https://bubobou.github.io/cabodoc/classes/Global/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/classes-globales/Global/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/Global/</guid>
+      <guid>https://bubobou.github.io/cabodoc/classes-globales/Global/</guid>
       <description>Extends: Node
 Description    variables globales utilisées partout dans le code
 Property Descriptions    data    var data MAX_NOM    var MAX_NOM MAX_CHAR_GRLL    var MAX_CHAR_GRLL taille maximale du nombre de caractères dans une ligne de la liste de grilles
@@ -176,10 +176,10 @@ eleveEditPage    var eleveEditPage groupeEditPage    var groupeEditPage allRefer
     
     <item>
       <title>GlobalHelper</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GlobalHelper/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GlobalHelper/</guid>
+      <guid>https://bubobou.github.io/cabodoc/classes-globales/GlobalHelper/</guid>
       <description>Extends: Node
 Description    fonctions communes utilisés partout dans tout le code
 Constants Descriptions    HOURS    const HOURS: Array = [&amp;#34;00&amp;#34;,&amp;#34;01&amp;#34;,&amp;#34;02&amp;#34;,&amp;#34;03&amp;#34;,&amp;#34;04&amp;#34;,&amp;#34;05&amp;#34;,&amp;#34;06&amp;#34;,&amp;#34;07&amp;#34;,&amp;#34;08&amp;#34;,&amp;#34;09&amp;#34;,&amp;#34;10&amp;#34;,&amp;#34;11&amp;#34;,&amp;#34;12&amp;#34;,&amp;#34;13&amp;#34;,&amp;#34;14&amp;#34;,&amp;#34;15&amp;#34;,&amp;#34;16&amp;#34;,&amp;#34;17&amp;#34;,&amp;#34;18&amp;#34;,&amp;#34;19&amp;#34;,&amp;#34;20&amp;#34;,&amp;#34;21&amp;#34;,&amp;#34;22&amp;#34;,&amp;#34;23&amp;#34;] MINUTES    const MINUTES: Array = [&amp;#34;00&amp;#34;,&amp;#34;05&amp;#34;,&amp;#34;10&amp;#34;,&amp;#34;15&amp;#34;,&amp;#34;20&amp;#34;,&amp;#34;25&amp;#34;,&amp;#34;30&amp;#34;,&amp;#34;35&amp;#34;,&amp;#34;40&amp;#34;,&amp;#34;45&amp;#34;,&amp;#34;50&amp;#34;,&amp;#34;55&amp;#34;] Property Descriptions    domaineModel    var domaineModel competenceModel    var competenceModel referentielModel    var referentielModel Method Descriptions    fillQuestionText    func fillQuestionText(qstText, questionNode) mergeDic    func mergeDic(dicOne, dicTwo) ajoute le dictionnaire 2 donné en paramètre au dictionnaire 1 donné en paramètre</description>
@@ -187,30 +187,30 @@ Constants Descriptions    HOURS    const HOURS: Array = [&amp;#34;00&amp;#34;,&a
     
     <item>
       <title>GriCLRLTextB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GriCLRLTextB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GriCLRLTextB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GriCLRLTextB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GriCLRLTextB/</guid>
       <description>Extends: Button
 Description    gère l&amp;rsquo;action clique sur le nom de la grille</description>
     </item>
     
     <item>
       <title>GriFMiddleB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GriFMiddleB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GriFMiddleB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GriFMiddleB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GriFMiddleB/</guid>
       <description>Extends: Button
 Description    </description>
     </item>
     
     <item>
       <title>GrilleModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GrilleModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/GrilleModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GrilleModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/GrilleModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table GRILLE
 Method Descriptions    deleteGrille    func deleteGrille(idGrille) deleteGrilleQuestions    func deleteGrilleQuestions(idGrille) deleteGrilleRaw    func deleteGrilleRaw(idGrille) getGrilleById    func getGrilleById(idGrille) récupère le nom de la grille par idGrille passé en argument
@@ -219,10 +219,10 @@ getGrilleList    func getGrilleList() récupère la liste des grilles avec leur 
     
     <item>
       <title>GrlAjoCFMultiSelectOB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GrlAjoCFMultiSelectOB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoCFMultiSelectOB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GrlAjoCFMultiSelectOB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoCFMultiSelectOB/</guid>
       <description>Extends: OptionButton
 Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/mmodifier une grille
 Property Descriptions    domaineModel    var domaineModel </description>
@@ -230,10 +230,10 @@ Property Descriptions    domaineModel    var domaineModel </description>
     
     <item>
       <title>GrlAjoCFQAddB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GrlAjoCFQAddB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoCFQAddB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GrlAjoCFQAddB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoCFQAddB/</guid>
       <description>Extends: Button
 Description    gère le bouton d&amp;rsquo;ajout de question
 Method Descriptions    duplicateQuestionScene    func duplicateQuestionScene(toDuplicateNode) duplique la scène parente du formulaire de question
@@ -242,30 +242,30 @@ getCompetenceArray    func getCompetenceArray(toDuplicateNode) récupérer le ou
     
     <item>
       <title>grlAjoCFQRemoveB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/grlAjoCFQRemoveB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/grlAjoCFQRemoveB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/grlAjoCFQRemoveB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/grlAjoCFQRemoveB/</guid>
       <description>Extends: Button
 Description    supprime une question à l&amp;rsquo;appui sur son bouton - (moins)</description>
     </item>
     
     <item>
       <title>GrlAjoCFQSDomainOB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GrlAjoCFQSDomainOB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoCFQSDomainOB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GrlAjoCFQSDomainOB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoCFQSDomainOB/</guid>
       <description>Extends: OptionButton
 Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/modifier une grille</description>
     </item>
     
     <item>
       <title>GrlAjoCFSaveB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GrlAjoCFSaveB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoCFSaveB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GrlAjoCFSaveB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoCFSaveB/</guid>
       <description>Extends: Button
 Description    gère le bouton &amp;ldquo;Enregistrer grille&amp;rdquo;
 Property Descriptions    grilleModel    var grilleModel instance du data object acces grilleModel
@@ -276,10 +276,10 @@ getGrilleQuestions    func getGrilleQuestions() récupère un tableau des questi
     
     <item>
       <title>GrlAjoPC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GrlAjoPC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoPC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GrlAjoPC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlAjoPC/</guid>
       <description>Extends: PanelContainer
 Description    gère la page d&amp;rsquo;ajout et de modification d&amp;rsquo;une grille
 Property Descriptions    grilleModel    var grilleModel pivotGrlQstModel    var pivotGrlQstModel Method Descriptions    fillGrilleForm    func fillGrilleForm(idGrille) remplit le formulaire de modification d&amp;rsquo;une grille donnée en argument
@@ -289,10 +289,10 @@ fillQuestions    func fillQuestions(questionArray, qstFormNode) remplit les ques
     
     <item>
       <title>GrlCLVBC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/GrlCLVBC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlCLVBC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/GrlCLVBC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Grilles/GrlCLVBC/</guid>
       <description>Extends: VBoxContainer
 Description    gère la liste des grilles
 Property Descriptions    grilleModel    var grilleModel Method Descriptions    fillGrilleRaws    func fillGrilleRaws(grilleDic) remplit les lignes de la liste de grilles
@@ -302,20 +302,20 @@ fillGrilleDiscipline    func fillGrilleDiscipline(rawNode, disciplineText) rempl
     
     <item>
       <title>groCLRLTextB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/groCLRLTextB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Groupes/groCLRLTextB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/groCLRLTextB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Groupes/groCLRLTextB/</guid>
       <description>Extends: Button
 Description    gère l&amp;rsquo;action clique sur le nom du groupe</description>
     </item>
     
     <item>
       <title>groCLsVBC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/groCLsVBC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-des-Groupes/groCLsVBC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/groCLsVBC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-des-Groupes/groCLsVBC/</guid>
       <description>Extends: VBoxContainer
 Description    gère la liste des groupes
 Property Descriptions    groupeModel    var groupeModel Method Descriptions    fillRawData    func fillRawData(groupesArray) fillGroupeName    func fillGroupeName(rawNode, name) fillId    func fillId(rawNode, id) </description>
@@ -323,10 +323,10 @@ Property Descriptions    groupeModel    var groupeModel Method Descriptions    f
     
     <item>
       <title>PivotGrilleQuestionModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/PivotGrilleQuestionModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/PivotGrilleQuestionModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotGrilleQuestionModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access model de la table GRILLE_QUESTION_PIVOT
 Method Descriptions    getQuestionWithCompetenceByGrilleId    func getQuestionWithCompetenceByGrilleId(idGrille) récupère toutes les questions de la grille donné en paramètre
@@ -337,10 +337,10 @@ getGrilleReferentieLinked    func getGrilleReferentieLinked() récupère les don
     
     <item>
       <title>PivotQuestionCompetenceModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/PivotQuestionCompetenceModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/PivotQuestionCompetenceModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/PivotQuestionCompetenceModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table QUESTION_COMPETENCE_PIVOT
 Method Descriptions    linkQuestionToManyCompetence    func linkQuestionToManyCompetence(idQuestion, competenceArray) lie une question à plusieurs compétences
@@ -351,10 +351,10 @@ flashLinkByQuestionIdArray    func flashLinkByQuestionIdArray(questionIdArray) p
     
     <item>
       <title>posCFCompB</title>
-      <link>https://bubobou.github.io/cabodoc/classes/posCFCompB/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posCFCompB/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/posCFCompB/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posCFCompB/</guid>
       <description>Extends: Button
 Description    bouton d&amp;rsquo;évaluation des compétence
 Property Descriptions    sceneNode    var sceneNode récupération du noeud de la scène &amp;ldquo;évaluation&amp;rdquo;
@@ -366,10 +366,10 @@ posValue    var posValue: int positionnement (niveau) de la compétence</descrip
     
     <item>
       <title>posCFQuestionPC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/posCFQuestionPC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posCFQuestionPC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/posCFQuestionPC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posCFQuestionPC/</guid>
       <description>Extends: PanelContainer
 Description    container de question pour la vue positionnement
 Property Descriptions    boutonComp    var boutonComp labelId    var labelId labelText    var labelText questHbox    var questHbox dataQuest    var dataQuest: Dictionary dictionnnaire stockant les données de la question (id, liste de compétences)
@@ -378,10 +378,10 @@ Method Descriptions    eleve_selected    func eleve_selected(data) transmission 
     
     <item>
       <title>posiPC</title>
-      <link>https://bubobou.github.io/cabodoc/classes/posiPC/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/posiPC/</guid>
+      <guid>https://bubobou.github.io/cabodoc/gestion-du-Positionnement/posiPC/</guid>
       <description>Extends: PanelContainer
 Description    gère la page de positionnement des élèves
 Property Descriptions    questionRow    var questionRow la scene du container de question
@@ -391,10 +391,10 @@ elevePicker    var elevePicker questionsContainer    var questionsContainer elev
     
     <item>
       <title>positionModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/positionModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/positionModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/positionModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access Object à la table POSITIONNEMENT
 Method Descriptions    getEleveList    func getEleveList(idEvaluation) récupère la liste des élèves concernés par l&amp;rsquo;évaluation
@@ -405,10 +405,10 @@ transformQuestionCompetence    func transformQuestionCompetence(qstWithCmpArray)
     
     <item>
       <title>QuestionModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/QuestionModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/QuestionModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/QuestionModel/</guid>
       <description>Method Descriptions    saveManyQuestion    func saveManyQuestion(questionArray, idGrille) sauvegarde plusieurs questions et les lient à la grille passée en argument
 saveQuestion    func saveQuestion(questionDic) crée et met à jour une question
 updateQuestion    func updateQuestion(questionDic) updateQuestionRaw    func updateQuestionRaw(questionDic) createQuestion    func createQuestion(questionDic) crée et lie une question aux compétences associées
@@ -417,358 +417,14 @@ insertQuestionRaw    func insertQuestionRaw(questionDic) insère une nouvelle li
     
     <item>
       <title>ReferentielModel</title>
-      <link>https://bubobou.github.io/cabodoc/classes/ReferentielModel/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://bubobou.github.io/cabodoc/Data-Model-Acces/ReferentielModel/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bubobou.github.io/cabodoc/classes/ReferentielModel/</guid>
+      <guid>https://bubobou.github.io/cabodoc/Data-Model-Acces/ReferentielModel/</guid>
       <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
 Description    data access object de la table REFERENTIEL
 Method Descriptions    getAllReferentiel    func getAllReferentiel() récupére tous les référentiels de la table REFERENTIEL
 prepareName    func prepareName(refArray) crée le nom du référentiel, ce nom est composé de Discipline et Niveau</description>
-    </item>
-    
-    <item>
-      <title>baseModel</title>
-      <link>https://bubobou.github.io/cabodoc/Data-Models/baseModel/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Data-Models/baseModel/</guid>
-      <description>Extends: Data &amp;lt; Node
-Description    modèle de data access object
-Constants Descriptions    SQLite    const SQLite: NativeScript = preload(&amp;#34;res://addons/godot-sqlite/bin/gdsqlite.gdns&amp;#34;) Property Descriptions    db    var db dbName    var dbName: String jsonName    var jsonName: String Method Descriptions    cprint    func cprint(text: String) -&amp;gt; void copy_data_to_user    func copy_data_to_user() -&amp;gt; void connectDb    func connectDb() getLastInsertedId    func getLastInsertedId(tableName) obtenir le dernier Id inseré dans une table de la base de données, donnée en paramètre</description>
-    </item>
-    
-    <item>
-      <title>ComCFQuestionPC</title>
-      <link>https://bubobou.github.io/cabodoc/Questions/ComCFQuestionPC/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Questions/ComCFQuestionPC/</guid>
-      <description>Extends: PanelContainer
-Description    Property Descriptions    refId    var refId domaineId    var domaineId competenceIdArray    var competenceIdArray questionText    var questionText Method Descriptions    init    func init(refId, domaineId, competenceIdArray, questionText: String = &amp;#34;&amp;#34;) initialise les paramètres utilisés dans la construction de la scène Question</description>
-    </item>
-    
-    <item>
-      <title>CompetenceModel</title>
-      <link>https://bubobou.github.io/cabodoc/Data-Models/CompetenceModel/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Data-Models/CompetenceModel/</guid>
-      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
-Description    data access object de la table COMPETENCE
-Method Descriptions    getCompetenceArrayByDomainId    func getCompetenceArrayByDomainId(idDomain) récupère toutes les compétences du domaine donné en paramètre</description>
-    </item>
-    
-    <item>
-      <title>Data</title>
-      <link>https://bubobou.github.io/cabodoc/Data-Models/Data/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Data-Models/Data/</guid>
-      <description>Extends: Node
-Description    mapping des noms utilisés dans le code avec les noms des tables et des champs utilisés dans la base de données
-Property Descriptions    eleveTable    var eleveTable: String eleveId    var eleveId: String eleveNom    var eleveNom: String elevePrenom    var elevePrenom: String groupeTable    var groupeTable: String groupeId    var groupeId: String groupeNom    var groupeNom: String eleveGroupPivotTable    var eleveGroupPivotTable: String eleveGroupPivotEleveId    var eleveGroupPivotEleveId: String eleveGroupPivotGroupeId    var eleveGroupPivotGroupeId: String grilleTable    var grilleTable: String grilleId    var grilleId: String grilleName    var grilleName: String questionTable    var questionTable: String questionId    var questionId: String questionText    var questionText: String questionReferentielId    var questionReferentielId: String questionDomainId    var questionDomainId: String grilleQuestionPivotTable    var grilleQuestionPivotTable: String grilleQuestionPivotQuestionId    var grilleQuestionPivotQuestionId: String grilleQuestionPivotGrilleId    var grilleQuestionPivotGrilleId: String referentielTable    var referentielTable: String referentielId    var referentielId: String referentielCycle    var referentielCycle: String referentielNiveau    var referentielNiveau: String referentielDiscipline    var referentielDiscipline: String referentielType    var referentielType: String domaineTable    var domaineTable: String domaineId    var domaineId: String domaineNom    var domaineNom: String domainReferentielId    var domainReferentielId: String competenceTable    var competenceTable: String competenceId    var competenceId: String competenceCapacite    var competenceCapacite: String competenceContenu    var competenceContenu: String competenceType    var competenceType: String competenceDomaineId    var competenceDomaineId: String competenceEditText    var competenceEditText: String questionCompetencePivotTable    var questionCompetencePivotTable: String questionCompetencePivotQuestionId    var questionCompetencePivotQuestionId: String questionCompetencePivotCompetenceId    var questionCompetencePivotCompetenceId: String </description>
-    </item>
-    
-    <item>
-      <title>DomaineModel</title>
-      <link>https://bubobou.github.io/cabodoc/Data-Models/DomaineModel/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Data-Models/DomaineModel/</guid>
-      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
-Description    data access object de la table DOMAINE
-Method Descriptions    getDomaineByRefId    func getDomaineByRefId(refId) récupère tous les domaines du référentiel donné en paramètre</description>
-    </item>
-    
-    <item>
-      <title>eAjoCFSaveB</title>
-      <link>https://bubobou.github.io/cabodoc/Eleves/eAjoCFSaveB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Eleves/eAjoCFSaveB/</guid>
-      <description>Extends: Button
-Description    gère le bouton de sauvegarde de l&amp;rsquo;élève
-Property Descriptions    eleveModel    var eleveModel formNode    var formNode eleveForm    var eleveForm Method Descriptions    getEleveDic    func getEleveDic() getEleveId    func getEleveId() getEleveGroupes    func getEleveGroupes() recuperer les groupes de l&amp;rsquo;eleve et remplir le eleveForm dic for validation</description>
-    </item>
-    
-    <item>
-      <title>eleCLRLTextB</title>
-      <link>https://bubobou.github.io/cabodoc/Eleves/eleCLRLTextB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Eleves/eleCLRLTextB/</guid>
-      <description>Extends: Button
-Description    gère l&amp;rsquo;action clique sur le nom de l&amp;rsquo;élève&#39;</description>
-    </item>
-    
-    <item>
-      <title>eleCLVBC</title>
-      <link>https://bubobou.github.io/cabodoc/Eleves/eleCLVBC/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Eleves/eleCLVBC/</guid>
-      <description>Extends: VBoxContainer
-Description    gère la liste des élèves
-Property Descriptions    eleveModel    var eleveModel Method Descriptions    fillRawData    func fillRawData(eleveDic) fillId    func fillId(rawNode, id) fillName    func fillName(rawNode, name) fillGroupes    func fillGroupes(rawNode, groupes) </description>
-    </item>
-    
-    <item>
-      <title>gAjoCFSaveB</title>
-      <link>https://bubobou.github.io/cabodoc/Groupes/gAjoCFSaveB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Groupes/gAjoCFSaveB/</guid>
-      <description>Extends: Button
-Description    gère le bouton de sauvegarde du groupe
-Property Descriptions    groupeModel    var groupeModel formNode    var formNode groupForm    var groupForm Method Descriptions    getGroupeDic    func getGroupeDic() getGroupeId    func getGroupeId() getGroupeNom    func getGroupeNom() </description>
-    </item>
-    
-    <item>
-      <title>Global</title>
-      <link>https://bubobou.github.io/cabodoc/classes-Globales/Global/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/classes-Globales/Global/</guid>
-      <description>Extends: Node
-Description    variables globales utilisées partout dans le code
-Property Descriptions    data    var data MAX_NOM    var MAX_NOM MAX_CHAR_GRLL    var MAX_CHAR_GRLL taille maximale du nombre de charactères dans une ligne de la liste de grilles
-eleveEditPage    var eleveEditPage groupeEditPage    var groupeEditPage allReferentiel    var allReferentiel domainByRefId    var domainByRefId competenceByDomainId    var competenceByDomainId grilleEditPage    var grilleEditPage dictionnaire qui contient tous les attributs utiles à la scène créer/modifier une grille</description>
-    </item>
-    
-    <item>
-      <title>GlobalHelper</title>
-      <link>https://bubobou.github.io/cabodoc/classes-Globales/GlobalHelper/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/classes-Globales/GlobalHelper/</guid>
-      <description>Extends: Node
-Description    fonctions communes utilisés partout dans tout le code
-Property Descriptions    domaineModel    var domaineModel competenceModel    var competenceModel referentielModel    var referentielModel Method Descriptions    fillQuestionText    func fillQuestionText(qstText, questionNode) mergeDic    func mergeDic(dicOne, dicTwo) ajoute le dictionnaire 2 donné en paramètre au dictionnaire 1 donné en paramètre
-prepareInString    func prepareInString(valuesArray) prépare une chaîne de charactère SQL du IN qui contient une liste de valeurs donnés en paramètre</description>
-    </item>
-    
-    <item>
-      <title>GriCLRLTextB</title>
-      <link>https://bubobou.github.io/cabodoc/Grilles/GriCLRLTextB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Grilles/GriCLRLTextB/</guid>
-      <description>Extends: Button
-Description    gère l&amp;rsquo;action clique sur le nom de la grille</description>
-    </item>
-    
-    <item>
-      <title>GriFMiddleB</title>
-      <link>https://bubobou.github.io/cabodoc/Grilles/GriFMiddleB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Grilles/GriFMiddleB/</guid>
-      <description>Extends: Button
-Description    </description>
-    </item>
-    
-    <item>
-      <title>GrilleModel</title>
-      <link>https://bubobou.github.io/cabodoc/Data-Models/GrilleModel/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Data-Models/GrilleModel/</guid>
-      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
-Description    data access object de la table GRILLE
-Method Descriptions    getGrilleById    func getGrilleById(idGrille) récupère le nom de la grille par idGrille passé en argument
-getGrilleList    func getGrilleList() récupère la liste des grilles avec leur référentiel associé
-getGrilleWithoutQuestion    func getGrilleWithoutQuestion(grillIdWithQuestion) récupère les grilles qui n&amp;rsquo;ont pas de questions
-transformGrille    func transformGrille(grilleArray) prepareGrilleList    func prepareGrilleList(grilleRefLinkArray) construit la liste de grille à partir des données du résultat de la requête qui lie la grille aux référentiels</description>
-    </item>
-    
-    <item>
-      <title>GrlAjoCFMultiSelectOB</title>
-      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFMultiSelectOB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFMultiSelectOB/</guid>
-      <description>Extends: OptionButton
-Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/mmodifier une grille
-Property Descriptions    domaineModel    var domaineModel </description>
-    </item>
-    
-    <item>
-      <title>GrlAjoCFQAddB</title>
-      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQAddB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQAddB/</guid>
-      <description>Extends: Button
-Description    gère le bouton d&amp;rsquo;ajout de question
-Method Descriptions    duplicateQuestionScene    func duplicateQuestionScene(toDuplicateNode) duplique la scène parente du formulaire de question
-getCompetenceArray    func getCompetenceArray(toDuplicateNode) récupérer le ou les id des compétences sélectionnées de la question à dupliquer</description>
-    </item>
-    
-    <item>
-      <title>grlAjoCFQRemoveB</title>
-      <link>https://bubobou.github.io/cabodoc/Grilles/grlAjoCFQRemoveB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Grilles/grlAjoCFQRemoveB/</guid>
-      <description>Extends: Button
-Description    supprime une question à l&amp;rsquo;appui sur son bouton - (moins)</description>
-    </item>
-    
-    <item>
-      <title>GrlAjoCFQSDomainOB</title>
-      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQSDomainOB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFQSDomainOB/</guid>
-      <description>Extends: OptionButton
-Description    gère l&amp;rsquo;action de selection d&amp;rsquo;un référentiel dans le formulaire créer/modifier une grille</description>
-    </item>
-    
-    <item>
-      <title>GrlAjoCFSaveB</title>
-      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFSaveB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoCFSaveB/</guid>
-      <description>Extends: Button
-Description    gère le bouton &amp;ldquo;Enregistrer grille&amp;rdquo;
-Property Descriptions    grilleModel    var grilleModel instance du data object acces grilleModel
-formNode    var formNode noeud du formulaire grlAjoCForm-VBC
-grilleForm    var grilleForm Method Descriptions    getGrilleDic    func getGrilleDic() collecte la structure de donnée grille à partir du formulaire de grille
-getGrilleQuestions    func getGrilleQuestions() récupère un tableau des questions à partir du formulaire grille</description>
-    </item>
-    
-    <item>
-      <title>GrlAjoPC</title>
-      <link>https://bubobou.github.io/cabodoc/Grilles/GrlAjoPC/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlAjoPC/</guid>
-      <description>Extends: PanelContainer
-Description    gère la page d&amp;rsquo;ajout et de modification d&amp;rsquo;une grille
-Property Descriptions    grilleModel    var grilleModel pivotGrlQstModel    var pivotGrlQstModel Method Descriptions    fillGrilleForm    func fillGrilleForm(idGrille) remplit le formulaire de modification d&amp;rsquo;une grille donnée en argument
-removeLoadedQuestionNode    func removeLoadedQuestionNode(qstFormNode) supprime le formulaire d&amp;rsquo;ajout de question
-fillQuestions    func fillQuestions(questionArray, qstFormNode) remplit les questions dans le formulaire récupérée de la base de donnée</description>
-    </item>
-    
-    <item>
-      <title>GrlCLVBC</title>
-      <link>https://bubobou.github.io/cabodoc/Grilles/GrlCLVBC/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Grilles/GrlCLVBC/</guid>
-      <description>Extends: VBoxContainer
-Description    gère la liste des grilles
-Property Descriptions    grilleModel    var grilleModel Method Descriptions    fillGrilleRaws    func fillGrilleRaws(grilleDic) remplit les lignes de la liste de grilles
-fillGrilleNiveau    func fillGrilleNiveau(rawNode, niveauText) remplit la colonne niveau de la ligne liste des grilles
-fillGrilleDiscipline    func fillGrilleDiscipline(rawNode, disciplineText) remplit la colonne discipline de la ligne liste des grilles</description>
-    </item>
-    
-    <item>
-      <title>groCLRLTextB</title>
-      <link>https://bubobou.github.io/cabodoc/Groupes/groCLRLTextB/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Groupes/groCLRLTextB/</guid>
-      <description>Extends: Button
-Description    gère l&amp;rsquo;action clique sur le nom du groupe</description>
-    </item>
-    
-    <item>
-      <title>groCLsVBC</title>
-      <link>https://bubobou.github.io/cabodoc/Groupes/groCLsVBC/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Groupes/groCLsVBC/</guid>
-      <description>Extends: VBoxContainer
-Description    gère la liste des groupes
-Property Descriptions    groupeModel    var groupeModel Method Descriptions    fillRawData    func fillRawData(groupesArray) fillGroupeName    func fillGroupeName(rawNode, name) fillId    func fillId(rawNode, id) </description>
-    </item>
-    
-    <item>
-      <title>PivotGrilleQuestionModel</title>
-      <link>https://bubobou.github.io/cabodoc/Data-Models/PivotGrilleQuestionModel/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Data-Models/PivotGrilleQuestionModel/</guid>
-      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
-Description    data access model de la table GRILLE_QUESTION_PIVOT
-Method Descriptions    getQuestionWithCompetenceByGrilleId    func getQuestionWithCompetenceByGrilleId(idGrille) récupère toutes les questions de la grille donné en paramètre
-transformQuestionCompetence    func transformQuestionCompetence(qstWithCmpArray) construit la structure de donnée la rubrique question
-initializeQstDic    func initializeQstDic(qstDic, qstId) initialise la structure de donnée &amp;ldquo;question&amp;rdquo;
-getGrilleReferentieLinked    func getGrilleReferentieLinked() récupère les données qui lient la grille aux référentiels, en passant par les questions</description>
-    </item>
-    
-    <item>
-      <title>PivotQuestionCompetenceModel</title>
-      <link>https://bubobou.github.io/cabodoc/Data-Models/PivotQuestionCompetenceModel/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Data-Models/PivotQuestionCompetenceModel/</guid>
-      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
-Description    data access object de la table QUESTION_COMPETENCE_PIVOT
-Method Descriptions    linkQuestionToManyCompetence    func linkQuestionToManyCompetence(idQuestion, competenceArray) lie une question à plusieurs compétences
-insertManyRaws    func insertManyRaws(rawsArray) insère plusieurs lignes dans la table QUESTION_COMPETENCE_PIVOT
-flashLinkByQuestionId    func flashLinkByQuestionId(idQuestion) supprime tous les liens de compétences de QuestionId donné en argument
-prepareRawByQuestion    func prepareRawByQuestion(idQuestion, competenceArray) prépare plusieurs lignes à insérer dans la table QUESTION_COMPETENCE_PIVOT</description>
-    </item>
-    
-    <item>
-      <title>QuestionModel</title>
-      <link>https://bubobou.github.io/cabodoc/Data-Models/QuestionModel/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Data-Models/QuestionModel/</guid>
-      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
-Description    data access object de la table QUESTION
-Method Descriptions    saveManyQuestion    func saveManyQuestion(questionArray, idGrille) sauvegarde plusieurs questions et les lient à la grille passée en argument
-saveQuestion    func saveQuestion(questionDic) crée et met à jour une question
-updateQuestion    func updateQuestion(questionDic) updateQuestionRaw    func updateQuestionRaw(questionDic) createQuestion    func createQuestion(questionDic) crée et lie une question aux compétences associées</description>
-    </item>
-    
-    <item>
-      <title>ReferentielModel</title>
-      <link>https://bubobou.github.io/cabodoc/Data-Models/ReferentielModel/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Data-Models/ReferentielModel/</guid>
-      <description>Extends: baseModel &amp;lt; Data &amp;lt; Node
-Description    data access object de la table REFERENTIEL
-Method Descriptions    getAllReferentiel    func getAllReferentiel() récupére tous les référentiels de la table REFERENTIEL
-prepareName    func prepareName(refArray) crée le nom du référentiel, ce nom est composé de Discipline et Niveau</description>
-    </item>
-    
-    <item>
-      <title>comHLeftB</title>
-      <link>https://bubobou.github.io/cabodoc/classes-Globales/comHLeftB/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/classes-Globales/comHLeftB/</guid>
-      <description>Extends: Button
-Description    Bouton permettant de retourner au menu principal</description>
-    </item>
-    
-    <item>
-      <title>gAjoPC</title>
-      <link>https://bubobou.github.io/cabodoc/Groupes/gAjoPC/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Groupes/gAjoPC/</guid>
-      <description>Extends: PanelContainer
-Description    class du container d&amp;rsquo;ajout de groupes
-Property Descriptions    groupeModel    var groupeModel Method Descriptions    editPageTitle    func editPageTitle() fillGroupeForm    func fillGroupeForm(idGroupe) fillNomGroupe    func fillNomGroupe(nomGroupe) fillIdGroupe    func fillIdGroupe(idGroupe) displayDeleteButton    func displayDeleteButton() </description>
-    </item>
-    
-    <item>
-      <title>groCLVBC</title>
-      <link>https://bubobou.github.io/cabodoc/Groupes/groCLVBC/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bubobou.github.io/cabodoc/Groupes/groCLVBC/</guid>
-      <description>Extends: VBoxContainer
-Description    gère l&amp;rsquo;affichage de la liste des groupes
-Property Descriptions    groupeModel    var groupeModel Method Descriptions    fillRawData    func fillRawData(groupesArray) fillGoupeName    func fillGoupeName(rawNode, name) fillId    func fillId(rawNode, id) </description>
     </item>
     
   </channel>
